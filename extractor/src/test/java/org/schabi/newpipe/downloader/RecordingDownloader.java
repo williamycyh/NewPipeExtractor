@@ -2,10 +2,10 @@ package org.schabi.newpipe.downloader;
 
 import com.google.gson.GsonBuilder;
 
-import org.schabi.newpipe.extractor.downloader.Downloader;
-import org.schabi.newpipe.extractor.downloader.Request;
-import org.schabi.newpipe.extractor.downloader.Response;
-import org.schabi.newpipe.extractor.exceptions.ReCaptchaException;
+import com.downloader.twotwo.video.downloader.Downloader;
+import com.downloader.twotwo.video.downloader.Request;
+import com.downloader.twotwo.video.downloader.Response;
+import com.downloader.twotwo.video.exceptions.ReCaptchaException;
 
 import java.io.File;
 import java.io.FileOutputStream;

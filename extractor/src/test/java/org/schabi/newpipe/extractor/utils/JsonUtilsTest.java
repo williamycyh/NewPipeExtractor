@@ -6,7 +6,8 @@ import com.grack.nanojson.JsonObject;
 import com.grack.nanojson.JsonParser;
 import com.grack.nanojson.JsonParserException;
 import org.junit.jupiter.api.Test;
-import org.schabi.newpipe.extractor.exceptions.ParsingException;
+import com.downloader.twotwo.video.exceptions.ParsingException;
+import com.downloader.twotwo.video.utils.JsonUtils;
 
 import java.util.List;
 

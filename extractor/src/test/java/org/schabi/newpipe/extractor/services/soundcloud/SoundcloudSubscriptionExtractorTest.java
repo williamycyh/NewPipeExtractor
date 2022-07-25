@@ -5,17 +5,12 @@ import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.ValueSource;
 import org.schabi.newpipe.downloader.DownloaderTestImpl;
-import org.schabi.newpipe.extractor.NewPipe;
-import org.schabi.newpipe.extractor.ServiceList;
-import org.schabi.newpipe.extractor.exceptions.ParsingException;
-import org.schabi.newpipe.extractor.linkhandler.LinkHandlerFactory;
-import org.schabi.newpipe.extractor.services.soundcloud.extractors.SoundcloudSubscriptionExtractor;
-import org.schabi.newpipe.extractor.subscription.SubscriptionExtractor;
-import org.schabi.newpipe.extractor.subscription.SubscriptionItem;
-
-import java.io.IOException;
-import java.util.Arrays;
-import java.util.List;
+import com.downloader.twotwo.video.NewPipe;
+import com.downloader.twotwo.video.ServiceList;
+import com.downloader.twotwo.video.linkhandler.LinkHandlerFactory;
+import com.downloader.twotwo.video.services.soundcloud.extractors.SoundcloudSubscriptionExtractor;
+import com.downloader.twotwo.video.subscription.SubscriptionExtractor;
+import com.downloader.twotwo.video.subscription.SubscriptionItem;
 
 import static org.junit.jupiter.api.Assertions.*;
 

@@ -3,12 +3,12 @@ package org.schabi.newpipe.extractor.services.media_ccc;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import org.schabi.newpipe.downloader.DownloaderTestImpl;
-import org.schabi.newpipe.extractor.NewPipe;
-import org.schabi.newpipe.extractor.services.media_ccc.extractors.MediaCCCConferenceExtractor;
+import com.downloader.twotwo.video.NewPipe;
+import com.downloader.twotwo.video.services.media_ccc.extractors.MediaCCCConferenceExtractor;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
-import static org.schabi.newpipe.extractor.ServiceList.MediaCCC;
+import static com.downloader.twotwo.video.ServiceList.MediaCCC;
 
 /**
  * Test {@link MediaCCCConferenceExtractor}

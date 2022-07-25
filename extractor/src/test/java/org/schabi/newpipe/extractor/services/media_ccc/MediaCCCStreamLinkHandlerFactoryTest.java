@@ -3,9 +3,9 @@ package org.schabi.newpipe.extractor.services.media_ccc;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import org.schabi.newpipe.downloader.DownloaderTestImpl;
-import org.schabi.newpipe.extractor.NewPipe;
-import org.schabi.newpipe.extractor.exceptions.ParsingException;
-import org.schabi.newpipe.extractor.services.media_ccc.linkHandler.MediaCCCStreamLinkHandlerFactory;
+import com.downloader.twotwo.video.NewPipe;
+import com.downloader.twotwo.video.exceptions.ParsingException;
+import com.downloader.twotwo.video.services.media_ccc.linkHandler.MediaCCCStreamLinkHandlerFactory;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 

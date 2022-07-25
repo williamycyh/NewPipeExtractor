@@ -1,14 +1,14 @@
 package org.schabi.newpipe.extractor.services;
 
-import org.schabi.newpipe.extractor.InfoItem;
-import org.schabi.newpipe.extractor.ListExtractor;
-import org.schabi.newpipe.extractor.Page;
-import org.schabi.newpipe.extractor.StreamingService;
-import org.schabi.newpipe.extractor.channel.ChannelInfoItem;
-import org.schabi.newpipe.extractor.exceptions.ParsingException;
-import org.schabi.newpipe.extractor.localization.DateWrapper;
-import org.schabi.newpipe.extractor.playlist.PlaylistInfoItem;
-import org.schabi.newpipe.extractor.stream.StreamInfoItem;
+import com.downloader.twotwo.video.InfoItem;
+import com.downloader.twotwo.video.ListExtractor;
+import com.downloader.twotwo.video.Page;
+import com.downloader.twotwo.video.StreamingService;
+import com.downloader.twotwo.video.channel.ChannelInfoItem;
+import com.downloader.twotwo.video.exceptions.ParsingException;
+import com.downloader.twotwo.video.localization.DateWrapper;
+import com.downloader.twotwo.video.playlist.PlaylistInfoItem;
+import com.downloader.twotwo.video.stream.StreamInfoItem;
 
 import java.util.HashSet;
 import java.util.List;
@@ -16,8 +16,8 @@ import java.util.Set;
 
 import static org.junit.jupiter.api.Assertions.*;
 import static org.schabi.newpipe.extractor.ExtractorAsserts.*;
-import static org.schabi.newpipe.extractor.StreamingService.LinkType;
-import static org.schabi.newpipe.extractor.utils.Utils.isNullOrEmpty;
+import static com.downloader.twotwo.video.StreamingService.LinkType;
+import static com.downloader.twotwo.video.utils.Utils.isNullOrEmpty;
 
 public final class DefaultTests {
     public static void defaultTestListOfItems(StreamingService expectedService, List<? extends InfoItem> itemsList, List<Throwable> errors) throws ParsingException {

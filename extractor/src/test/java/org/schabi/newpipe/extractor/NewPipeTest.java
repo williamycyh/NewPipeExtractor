@@ -1,13 +1,17 @@
 package org.schabi.newpipe.extractor;
 
+import com.downloader.twotwo.video.NewPipe;
+import com.downloader.twotwo.video.ServiceList;
+import com.downloader.twotwo.video.StreamingService;
+
 import org.junit.jupiter.api.Test;
 
 import java.util.HashSet;
 
 import static org.junit.jupiter.api.Assertions.*;
-import static org.schabi.newpipe.extractor.NewPipe.getServiceByUrl;
-import static org.schabi.newpipe.extractor.ServiceList.SoundCloud;
-import static org.schabi.newpipe.extractor.ServiceList.YouTube;
+import static com.downloader.twotwo.video.NewPipe.getServiceByUrl;
+import static com.downloader.twotwo.video.ServiceList.SoundCloud;
+import static com.downloader.twotwo.video.ServiceList.YouTube;
 
 public class NewPipeTest {
     @Test

@@ -3,15 +3,15 @@ package org.schabi.newpipe.extractor.services.bandcamp;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import org.schabi.newpipe.downloader.DownloaderTestImpl;
-import org.schabi.newpipe.extractor.NewPipe;
-import org.schabi.newpipe.extractor.StreamingService;
-import org.schabi.newpipe.extractor.exceptions.ContentNotSupportedException;
-import org.schabi.newpipe.extractor.exceptions.ExtractionException;
-import org.schabi.newpipe.extractor.exceptions.ParsingException;
+import com.downloader.twotwo.video.NewPipe;
+import com.downloader.twotwo.video.StreamingService;
+import com.downloader.twotwo.video.exceptions.ContentNotSupportedException;
+import com.downloader.twotwo.video.exceptions.ExtractionException;
+import com.downloader.twotwo.video.exceptions.ParsingException;
 import org.schabi.newpipe.extractor.services.DefaultStreamExtractorTest;
-import org.schabi.newpipe.extractor.services.bandcamp.extractors.BandcampRadioStreamExtractor;
-import org.schabi.newpipe.extractor.stream.StreamExtractor;
-import org.schabi.newpipe.extractor.stream.StreamType;
+import com.downloader.twotwo.video.services.bandcamp.extractors.BandcampRadioStreamExtractor;
+import com.downloader.twotwo.video.stream.StreamExtractor;
+import com.downloader.twotwo.video.stream.StreamType;
 
 import java.io.IOException;
 import java.util.Calendar;
@@ -20,7 +20,7 @@ import java.util.List;
 import java.util.TimeZone;
 
 import static org.junit.jupiter.api.Assertions.*;
-import static org.schabi.newpipe.extractor.ServiceList.Bandcamp;
+import static com.downloader.twotwo.video.ServiceList.Bandcamp;
 
 public class BandcampRadioStreamExtractorTest extends DefaultStreamExtractorTest {
 

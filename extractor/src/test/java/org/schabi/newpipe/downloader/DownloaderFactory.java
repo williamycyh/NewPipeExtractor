@@ -1,6 +1,6 @@
 package org.schabi.newpipe.downloader;
 
-import org.schabi.newpipe.extractor.downloader.Downloader;
+import com.downloader.twotwo.video.downloader.Downloader;
 
 import java.io.IOException;
 

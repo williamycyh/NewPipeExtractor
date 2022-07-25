@@ -4,12 +4,12 @@ import org.junit.jupiter.api.Test;
 
 import static java.util.Arrays.asList;
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.schabi.newpipe.extractor.ServiceList.YouTube;
-import static org.schabi.newpipe.extractor.services.youtube.linkHandler.YoutubeSearchQueryHandlerFactory.CHANNELS;
-import static org.schabi.newpipe.extractor.services.youtube.linkHandler.YoutubeSearchQueryHandlerFactory.MUSIC_SONGS;
-import static org.schabi.newpipe.extractor.services.youtube.linkHandler.YoutubeSearchQueryHandlerFactory.PLAYLISTS;
-import static org.schabi.newpipe.extractor.services.youtube.linkHandler.YoutubeSearchQueryHandlerFactory.VIDEOS;
-import static org.schabi.newpipe.extractor.utils.Utils.EMPTY_STRING;
+import static com.downloader.twotwo.video.ServiceList.YouTube;
+import static com.downloader.twotwo.video.services.youtube.linkHandler.YoutubeSearchQueryHandlerFactory.CHANNELS;
+import static com.downloader.twotwo.video.services.youtube.linkHandler.YoutubeSearchQueryHandlerFactory.MUSIC_SONGS;
+import static com.downloader.twotwo.video.services.youtube.linkHandler.YoutubeSearchQueryHandlerFactory.PLAYLISTS;
+import static com.downloader.twotwo.video.services.youtube.linkHandler.YoutubeSearchQueryHandlerFactory.VIDEOS;
+import static com.downloader.twotwo.video.utils.Utils.EMPTY_STRING;
 
 public class YoutubeSearchQHTest {
 

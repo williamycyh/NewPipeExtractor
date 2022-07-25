@@ -5,8 +5,8 @@ import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 import static org.schabi.newpipe.extractor.ExtractorAsserts.assertIsSecureUrl;
-import static org.schabi.newpipe.extractor.ServiceList.YouTube;
-import static org.schabi.newpipe.extractor.services.youtube.YoutubeParsingHelper.*;
+import static com.downloader.twotwo.video.ServiceList.YouTube;
+import static com.downloader.twotwo.video.services.youtube.YoutubeParsingHelper.*;
 
 import com.grack.nanojson.JsonWriter;
 
@@ -14,15 +14,15 @@ import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import org.schabi.newpipe.downloader.DownloaderFactory;
 import org.schabi.newpipe.extractor.ExtractorAsserts;
-import org.schabi.newpipe.extractor.ListExtractor;
-import org.schabi.newpipe.extractor.ListExtractor.InfoItemsPage;
-import org.schabi.newpipe.extractor.NewPipe;
-import org.schabi.newpipe.extractor.Page;
-import org.schabi.newpipe.extractor.exceptions.ExtractionException;
-import org.schabi.newpipe.extractor.exceptions.ParsingException;
-import org.schabi.newpipe.extractor.playlist.PlaylistInfo;
-import org.schabi.newpipe.extractor.services.youtube.extractors.YoutubeMixPlaylistExtractor;
-import org.schabi.newpipe.extractor.stream.StreamInfoItem;
+import com.downloader.twotwo.video.ListExtractor;
+import com.downloader.twotwo.video.ListExtractor.InfoItemsPage;
+import com.downloader.twotwo.video.NewPipe;
+import com.downloader.twotwo.video.Page;
+import com.downloader.twotwo.video.exceptions.ExtractionException;
+import com.downloader.twotwo.video.exceptions.ParsingException;
+import com.downloader.twotwo.video.playlist.PlaylistInfo;
+import com.downloader.twotwo.video.services.youtube.extractors.YoutubeMixPlaylistExtractor;
+import com.downloader.twotwo.video.stream.StreamInfoItem;
 
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
