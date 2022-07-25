@@ -1,17 +1,17 @@
 package org.schabi.newpipe.extractor.services.youtube;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static com.downloader.twotwo.video.ServiceList.YouTube;
+import static com.ppd.ersan.video.ServiceList.YouTube;
 import static org.schabi.newpipe.extractor.services.DefaultTests.assertNoMoreItems;
 import static org.schabi.newpipe.extractor.services.DefaultTests.defaultTestRelatedItems;
 
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import org.schabi.newpipe.downloader.DownloaderFactory;
-import com.downloader.twotwo.video.NewPipe;
-import com.downloader.twotwo.video.exceptions.ParsingException;
+import com.ppd.ersan.video.NewPipe;
+import com.ppd.ersan.video.exceptions.ParsingException;
 import org.schabi.newpipe.extractor.services.BaseListExtractorTest;
-import com.downloader.twotwo.video.services.youtube.extractors.YoutubeTrendingExtractor;
+import com.ppd.ersan.video.services.youtube.extractors.YoutubeTrendingExtractor;
 
 public class YoutubeKioskExtractorTest {
 

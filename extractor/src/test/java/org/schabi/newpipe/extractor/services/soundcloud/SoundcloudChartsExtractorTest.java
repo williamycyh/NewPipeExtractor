@@ -3,13 +3,13 @@ package org.schabi.newpipe.extractor.services.soundcloud;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import org.schabi.newpipe.downloader.DownloaderTestImpl;
-import com.downloader.twotwo.video.NewPipe;
-import com.downloader.twotwo.video.exceptions.ParsingException;
+import com.ppd.ersan.video.NewPipe;
+import com.ppd.ersan.video.exceptions.ParsingException;
 import org.schabi.newpipe.extractor.services.BaseListExtractorTest;
-import com.downloader.twotwo.video.services.soundcloud.extractors.SoundcloudChartsExtractor;
+import com.ppd.ersan.video.services.soundcloud.extractors.SoundcloudChartsExtractor;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static com.downloader.twotwo.video.ServiceList.SoundCloud;
+import static com.ppd.ersan.video.ServiceList.SoundCloud;
 import static org.schabi.newpipe.extractor.services.DefaultTests.*;
 
 public class SoundcloudChartsExtractorTest {

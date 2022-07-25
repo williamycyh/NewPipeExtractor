@@ -1,14 +1,14 @@
 package org.schabi.newpipe.extractor.services;
 
-import com.downloader.twotwo.video.InfoItem;
-import com.downloader.twotwo.video.ListExtractor;
-import com.downloader.twotwo.video.Page;
-import com.downloader.twotwo.video.StreamingService;
-import com.downloader.twotwo.video.channel.ChannelInfoItem;
-import com.downloader.twotwo.video.exceptions.ParsingException;
-import com.downloader.twotwo.video.localization.DateWrapper;
-import com.downloader.twotwo.video.playlist.PlaylistInfoItem;
-import com.downloader.twotwo.video.stream.StreamInfoItem;
+import com.ppd.ersan.video.InfoItem;
+import com.ppd.ersan.video.ListExtractor;
+import com.ppd.ersan.video.Page;
+import com.ppd.ersan.video.StreamingService;
+import com.ppd.ersan.video.channel.ChannelInfoItem;
+import com.ppd.ersan.video.exceptions.ParsingException;
+import com.ppd.ersan.video.localization.DateWrapper;
+import com.ppd.ersan.video.playlist.PlaylistInfoItem;
+import com.ppd.ersan.video.stream.StreamInfoItem;
 
 import java.util.HashSet;
 import java.util.List;
@@ -16,8 +16,8 @@ import java.util.Set;
 
 import static org.junit.jupiter.api.Assertions.*;
 import static org.schabi.newpipe.extractor.ExtractorAsserts.*;
-import static com.downloader.twotwo.video.StreamingService.LinkType;
-import static com.downloader.twotwo.video.utils.Utils.isNullOrEmpty;
+import static com.ppd.ersan.video.StreamingService.LinkType;
+import static com.ppd.ersan.video.utils.Utils.isNullOrEmpty;
 
 public final class DefaultTests {
     public static void defaultTestListOfItems(StreamingService expectedService, List<? extends InfoItem> itemsList, List<Throwable> errors) throws ParsingException {

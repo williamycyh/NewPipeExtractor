@@ -1,8 +1,8 @@
 package org.schabi.newpipe.extractor.utils;
 
 import org.junit.jupiter.api.Test;
-import com.downloader.twotwo.video.exceptions.ParsingException;
-import com.downloader.twotwo.video.utils.Utils;
+import com.ppd.ersan.video.exceptions.ParsingException;
+import com.ppd.ersan.video.utils.Utils;
 
 import java.util.Arrays;
 

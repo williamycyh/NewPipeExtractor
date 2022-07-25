@@ -21,15 +21,15 @@ package org.schabi.newpipe.extractor.services.youtube;
  */
 
 import static org.junit.jupiter.api.Assertions.assertFalse;
-import static com.downloader.twotwo.video.ServiceList.YouTube;
+import static com.ppd.ersan.video.ServiceList.YouTube;
 
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import org.schabi.newpipe.downloader.DownloaderFactory;
-import com.downloader.twotwo.video.NewPipe;
-import com.downloader.twotwo.video.exceptions.ExtractionException;
-import com.downloader.twotwo.video.localization.Localization;
-import com.downloader.twotwo.video.suggestion.SuggestionExtractor;
+import com.ppd.ersan.video.NewPipe;
+import com.ppd.ersan.video.exceptions.ExtractionException;
+import com.ppd.ersan.video.localization.Localization;
+import com.ppd.ersan.video.suggestion.SuggestionExtractor;
 
 import java.io.IOException;
 

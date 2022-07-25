@@ -4,9 +4,9 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mozilla.javascript.EvaluatorException;
 import org.schabi.newpipe.downloader.DownloaderTestImpl;
-import com.downloader.twotwo.video.NewPipe;
-import com.downloader.twotwo.video.exceptions.ParsingException;
-import com.downloader.twotwo.video.services.youtube.YoutubeThrottlingDecrypter;
+import com.ppd.ersan.video.NewPipe;
+import com.ppd.ersan.video.exceptions.ParsingException;
+import com.ppd.ersan.video.services.youtube.YoutubeThrottlingDecrypter;
 
 import java.io.IOException;
 

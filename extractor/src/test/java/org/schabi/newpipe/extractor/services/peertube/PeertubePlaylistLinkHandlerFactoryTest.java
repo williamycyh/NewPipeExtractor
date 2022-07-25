@@ -3,9 +3,9 @@ package org.schabi.newpipe.extractor.services.peertube;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import org.schabi.newpipe.downloader.DownloaderTestImpl;
-import com.downloader.twotwo.video.NewPipe;
-import com.downloader.twotwo.video.exceptions.ParsingException;
-import com.downloader.twotwo.video.services.peertube.linkHandler.PeertubePlaylistLinkHandlerFactory;
+import com.ppd.ersan.video.NewPipe;
+import com.ppd.ersan.video.exceptions.ParsingException;
+import com.ppd.ersan.video.services.peertube.linkHandler.PeertubePlaylistLinkHandlerFactory;
 
 import static org.junit.jupiter.api.Assertions.assertDoesNotThrow;
 import static org.junit.jupiter.api.Assertions.assertEquals;

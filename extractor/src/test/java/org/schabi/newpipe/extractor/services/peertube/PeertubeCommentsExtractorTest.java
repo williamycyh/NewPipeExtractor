@@ -3,14 +3,14 @@ package org.schabi.newpipe.extractor.services.peertube;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import org.schabi.newpipe.downloader.DownloaderTestImpl;
-import com.downloader.twotwo.video.ListExtractor.InfoItemsPage;
-import com.downloader.twotwo.video.NewPipe;
-import com.downloader.twotwo.video.Page;
-import com.downloader.twotwo.video.comments.CommentsInfo;
-import com.downloader.twotwo.video.comments.CommentsInfoItem;
-import com.downloader.twotwo.video.exceptions.ExtractionException;
-import com.downloader.twotwo.video.services.peertube.extractors.PeertubeCommentsExtractor;
-import com.downloader.twotwo.video.utils.Utils;
+import com.ppd.ersan.video.ListExtractor.InfoItemsPage;
+import com.ppd.ersan.video.NewPipe;
+import com.ppd.ersan.video.Page;
+import com.ppd.ersan.video.comments.CommentsInfo;
+import com.ppd.ersan.video.comments.CommentsInfoItem;
+import com.ppd.ersan.video.exceptions.ExtractionException;
+import com.ppd.ersan.video.services.peertube.extractors.PeertubeCommentsExtractor;
+import com.ppd.ersan.video.utils.Utils;
 
 import java.io.IOException;
 import java.util.List;
@@ -18,7 +18,7 @@ import java.util.List;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
-import static com.downloader.twotwo.video.ServiceList.PeerTube;
+import static com.ppd.ersan.video.ServiceList.PeerTube;
 
 public class PeertubeCommentsExtractorTest {
     public static class Default {

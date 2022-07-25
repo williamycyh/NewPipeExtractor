@@ -1,9 +1,9 @@
 package org.schabi.newpipe.downloader;
 
-import com.downloader.twotwo.video.downloader.Downloader;
-import com.downloader.twotwo.video.downloader.Request;
-import com.downloader.twotwo.video.downloader.Response;
-import com.downloader.twotwo.video.exceptions.ReCaptchaException;
+import com.ppd.ersan.video.downloader.Downloader;
+import com.ppd.ersan.video.downloader.Request;
+import com.ppd.ersan.video.downloader.Response;
+import com.ppd.ersan.video.exceptions.ReCaptchaException;
 
 import java.io.IOException;
 import java.util.List;

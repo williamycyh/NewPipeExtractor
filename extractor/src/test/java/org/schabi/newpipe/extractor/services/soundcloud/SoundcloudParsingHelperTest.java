@@ -5,8 +5,8 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import org.schabi.newpipe.downloader.DownloaderTestImpl;
-import com.downloader.twotwo.video.NewPipe;
-import com.downloader.twotwo.video.services.soundcloud.SoundcloudParsingHelper;
+import com.ppd.ersan.video.NewPipe;
+import com.ppd.ersan.video.services.soundcloud.SoundcloudParsingHelper;
 
 class SoundcloudParsingHelperTest {
     @BeforeAll

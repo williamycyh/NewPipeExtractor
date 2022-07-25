@@ -2,17 +2,17 @@ package org.schabi.newpipe.extractor.services;
 
 import org.junit.jupiter.api.Test;
 import org.schabi.newpipe.extractor.ExtractorAsserts;
-import com.downloader.twotwo.video.InfoItemsCollector;
-import com.downloader.twotwo.video.MediaFormat;
-import com.downloader.twotwo.video.MetaInfo;
-import com.downloader.twotwo.video.localization.DateWrapper;
-import com.downloader.twotwo.video.stream.AudioStream;
-import com.downloader.twotwo.video.stream.Description;
-import com.downloader.twotwo.video.stream.Frameset;
-import com.downloader.twotwo.video.stream.StreamExtractor;
-import com.downloader.twotwo.video.stream.StreamType;
-import com.downloader.twotwo.video.stream.SubtitlesStream;
-import com.downloader.twotwo.video.stream.VideoStream;
+import com.ppd.ersan.video.InfoItemsCollector;
+import com.ppd.ersan.video.MediaFormat;
+import com.ppd.ersan.video.MetaInfo;
+import com.ppd.ersan.video.localization.DateWrapper;
+import com.ppd.ersan.video.stream.AudioStream;
+import com.ppd.ersan.video.stream.Description;
+import com.ppd.ersan.video.stream.Frameset;
+import com.ppd.ersan.video.stream.StreamExtractor;
+import com.ppd.ersan.video.stream.StreamType;
+import com.ppd.ersan.video.stream.SubtitlesStream;
+import com.ppd.ersan.video.stream.VideoStream;
 
 import javax.annotation.Nullable;
 import java.time.LocalDateTime;
@@ -34,7 +34,7 @@ import static org.schabi.newpipe.extractor.ExtractorAsserts.assertEqualsOrderInd
 import static org.schabi.newpipe.extractor.ExtractorAsserts.assertIsSecureUrl;
 import static org.schabi.newpipe.extractor.ExtractorAsserts.assertIsValidUrl;
 import static org.schabi.newpipe.extractor.services.DefaultTests.defaultTestListOfItems;
-import static com.downloader.twotwo.video.stream.StreamExtractor.UNKNOWN_SUBSCRIBER_COUNT;
+import static com.ppd.ersan.video.stream.StreamExtractor.UNKNOWN_SUBSCRIBER_COUNT;
 
 /**
  * Test for {@link StreamExtractor}

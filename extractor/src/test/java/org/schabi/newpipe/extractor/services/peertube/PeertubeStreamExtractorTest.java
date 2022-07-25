@@ -4,15 +4,15 @@ import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import org.schabi.newpipe.downloader.DownloaderTestImpl;
-import com.downloader.twotwo.video.NewPipe;
-import com.downloader.twotwo.video.StreamingService;
-import com.downloader.twotwo.video.exceptions.ExtractionException;
-import com.downloader.twotwo.video.exceptions.ParsingException;
+import com.ppd.ersan.video.NewPipe;
+import com.ppd.ersan.video.StreamingService;
+import com.ppd.ersan.video.exceptions.ExtractionException;
+import com.ppd.ersan.video.exceptions.ParsingException;
 import org.schabi.newpipe.extractor.services.DefaultStreamExtractorTest;
 
-import com.downloader.twotwo.video.services.peertube.PeertubeInstance;
-import com.downloader.twotwo.video.stream.StreamExtractor;
-import com.downloader.twotwo.video.stream.StreamType;
+import com.ppd.ersan.video.services.peertube.PeertubeInstance;
+import com.ppd.ersan.video.stream.StreamExtractor;
+import com.ppd.ersan.video.stream.StreamType;
 
 import java.io.IOException;
 import java.util.Arrays;
@@ -22,7 +22,7 @@ import java.util.Locale;
 import javax.annotation.Nullable;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static com.downloader.twotwo.video.ServiceList.PeerTube;
+import static com.ppd.ersan.video.ServiceList.PeerTube;
 
 public abstract class PeertubeStreamExtractorTest extends DefaultStreamExtractorTest {
     private static final String BASE_URL = "/videos/watch/";

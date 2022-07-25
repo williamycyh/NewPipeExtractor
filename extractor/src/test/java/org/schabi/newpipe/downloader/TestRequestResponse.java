@@ -1,7 +1,7 @@
 package org.schabi.newpipe.downloader;
 
-import com.downloader.twotwo.video.downloader.Request;
-import com.downloader.twotwo.video.downloader.Response;
+import com.ppd.ersan.video.downloader.Request;
+import com.ppd.ersan.video.downloader.Response;
 
 final class TestRequestResponse {
     private final Request request;

@@ -5,18 +5,18 @@ package org.schabi.newpipe.extractor.services.bandcamp;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import org.schabi.newpipe.downloader.DownloaderTestImpl;
-import com.downloader.twotwo.video.NewPipe;
-import com.downloader.twotwo.video.exceptions.ExtractionException;
+import com.ppd.ersan.video.NewPipe;
+import com.ppd.ersan.video.exceptions.ExtractionException;
 import org.schabi.newpipe.extractor.services.BaseListExtractorTest;
-import com.downloader.twotwo.video.services.bandcamp.extractors.BandcampRadioExtractor;
-import com.downloader.twotwo.video.stream.StreamInfoItem;
+import com.ppd.ersan.video.services.bandcamp.extractors.BandcampRadioExtractor;
+import com.ppd.ersan.video.stream.StreamInfoItem;
 
 import java.io.IOException;
 import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
-import static com.downloader.twotwo.video.ServiceList.Bandcamp;
+import static com.ppd.ersan.video.ServiceList.Bandcamp;
 
 /**
  * Tests for {@link BandcampRadioExtractor}

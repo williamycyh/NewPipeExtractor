@@ -6,10 +6,10 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import org.schabi.newpipe.downloader.DownloaderFactory;
-import com.downloader.twotwo.video.NewPipe;
-import com.downloader.twotwo.video.exceptions.ExtractionException;
-import com.downloader.twotwo.video.exceptions.ParsingException;
-import com.downloader.twotwo.video.services.youtube.YoutubeParsingHelper;
+import com.ppd.ersan.video.NewPipe;
+import com.ppd.ersan.video.exceptions.ExtractionException;
+import com.ppd.ersan.video.exceptions.ParsingException;
+import com.ppd.ersan.video.services.youtube.YoutubeParsingHelper;
 
 import java.io.IOException;
 
