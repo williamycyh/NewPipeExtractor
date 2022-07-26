@@ -1,8 +1,8 @@
 package org.schabi.newpipe.extractor.utils;
 
 import org.junit.jupiter.api.Test;
-import com.ppd.ersan.video.exceptions.ParsingException;
-import com.ppd.ersan.video.utils.Utils;
+import vmeno.yyml.nnbersi.downd.exceptions.ParsingException;
+import vmeno.yyml.nnbersi.downd.utils.Utils;
 
 import java.util.Arrays;
 

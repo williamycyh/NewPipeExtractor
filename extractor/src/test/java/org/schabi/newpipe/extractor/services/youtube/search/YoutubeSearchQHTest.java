@@ -4,12 +4,12 @@ import org.junit.jupiter.api.Test;
 
 import static java.util.Arrays.asList;
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static com.ppd.ersan.video.ServiceList.YouTube;
-import static com.ppd.ersan.video.services.youtube.linkHandler.YoutubeSearchQueryHandlerFactory.CHANNELS;
-import static com.ppd.ersan.video.services.youtube.linkHandler.YoutubeSearchQueryHandlerFactory.MUSIC_SONGS;
-import static com.ppd.ersan.video.services.youtube.linkHandler.YoutubeSearchQueryHandlerFactory.PLAYLISTS;
-import static com.ppd.ersan.video.services.youtube.linkHandler.YoutubeSearchQueryHandlerFactory.VIDEOS;
-import static com.ppd.ersan.video.utils.Utils.EMPTY_STRING;
+import static vmeno.yyml.nnbersi.downd.ServiceList.YouTube;
+import static vmeno.yyml.nnbersi.downd.services.youtube.linkHandler.YoutubeSearchQueryHandlerFactory.CHANNELS;
+import static vmeno.yyml.nnbersi.downd.services.youtube.linkHandler.YoutubeSearchQueryHandlerFactory.MUSIC_SONGS;
+import static vmeno.yyml.nnbersi.downd.services.youtube.linkHandler.YoutubeSearchQueryHandlerFactory.PLAYLISTS;
+import static vmeno.yyml.nnbersi.downd.services.youtube.linkHandler.YoutubeSearchQueryHandlerFactory.VIDEOS;
+import static vmeno.yyml.nnbersi.downd.utils.Utils.EMPTY_STRING;
 
 public class YoutubeSearchQHTest {
 

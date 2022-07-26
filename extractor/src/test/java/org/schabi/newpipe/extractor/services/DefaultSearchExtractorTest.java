@@ -1,8 +1,8 @@
 package org.schabi.newpipe.extractor.services;
 
 import org.junit.jupiter.api.Test;
-import com.ppd.ersan.video.MetaInfo;
-import com.ppd.ersan.video.search.SearchExtractor;
+import vmeno.yyml.nnbersi.downd.MetaInfo;
+import vmeno.yyml.nnbersi.downd.search.SearchExtractor;
 
 
 import javax.annotation.Nullable;
@@ -16,7 +16,7 @@ import java.util.stream.Collectors;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 import static org.schabi.newpipe.extractor.ExtractorAsserts.assertEmpty;
-import static com.ppd.ersan.video.utils.Utils.isNullOrEmpty;
+import static vmeno.yyml.nnbersi.downd.utils.Utils.isNullOrEmpty;
 
 public abstract class DefaultSearchExtractorTest extends DefaultListExtractorTest<SearchExtractor>
         implements BaseSearchExtractorTest {

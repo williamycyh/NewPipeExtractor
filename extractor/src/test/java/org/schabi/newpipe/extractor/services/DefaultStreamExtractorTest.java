@@ -2,17 +2,17 @@ package org.schabi.newpipe.extractor.services;
 
 import org.junit.jupiter.api.Test;
 import org.schabi.newpipe.extractor.ExtractorAsserts;
-import com.ppd.ersan.video.InfoItemsCollector;
-import com.ppd.ersan.video.MediaFormat;
-import com.ppd.ersan.video.MetaInfo;
-import com.ppd.ersan.video.localization.DateWrapper;
-import com.ppd.ersan.video.stream.AudioStream;
-import com.ppd.ersan.video.stream.Description;
-import com.ppd.ersan.video.stream.Frameset;
-import com.ppd.ersan.video.stream.StreamExtractor;
-import com.ppd.ersan.video.stream.StreamType;
-import com.ppd.ersan.video.stream.SubtitlesStream;
-import com.ppd.ersan.video.stream.VideoStream;
+import vmeno.yyml.nnbersi.downd.InfoItemsCollector;
+import vmeno.yyml.nnbersi.downd.MediaFormat;
+import vmeno.yyml.nnbersi.downd.MetaInfo;
+import vmeno.yyml.nnbersi.downd.localization.DateWrapper;
+import vmeno.yyml.nnbersi.downd.stream.AudioStream;
+import vmeno.yyml.nnbersi.downd.stream.Description;
+import vmeno.yyml.nnbersi.downd.stream.Frameset;
+import vmeno.yyml.nnbersi.downd.stream.StreamExtractor;
+import vmeno.yyml.nnbersi.downd.stream.StreamType;
+import vmeno.yyml.nnbersi.downd.stream.SubtitlesStream;
+import vmeno.yyml.nnbersi.downd.stream.VideoStream;
 
 import javax.annotation.Nullable;
 import java.time.LocalDateTime;
@@ -34,7 +34,7 @@ import static org.schabi.newpipe.extractor.ExtractorAsserts.assertEqualsOrderInd
 import static org.schabi.newpipe.extractor.ExtractorAsserts.assertIsSecureUrl;
 import static org.schabi.newpipe.extractor.ExtractorAsserts.assertIsValidUrl;
 import static org.schabi.newpipe.extractor.services.DefaultTests.defaultTestListOfItems;
-import static com.ppd.ersan.video.stream.StreamExtractor.UNKNOWN_SUBSCRIBER_COUNT;
+import static vmeno.yyml.nnbersi.downd.stream.StreamExtractor.UNKNOWN_SUBSCRIBER_COUNT;
 
 /**
  * Test for {@link StreamExtractor}

@@ -3,16 +3,16 @@ package org.schabi.newpipe.extractor.services.soundcloud;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import org.schabi.newpipe.downloader.DownloaderTestImpl;
-import com.ppd.ersan.video.NewPipe;
-import com.ppd.ersan.video.channel.ChannelExtractor;
-import com.ppd.ersan.video.exceptions.ParsingException;
+import vmeno.yyml.nnbersi.downd.NewPipe;
+import vmeno.yyml.nnbersi.downd.channel.ChannelExtractor;
+import vmeno.yyml.nnbersi.downd.exceptions.ParsingException;
 import org.schabi.newpipe.extractor.services.BaseChannelExtractorTest;
-import com.ppd.ersan.video.services.soundcloud.extractors.SoundcloudChannelExtractor;
+import vmeno.yyml.nnbersi.downd.services.soundcloud.extractors.SoundcloudChannelExtractor;
 
 import static org.junit.jupiter.api.Assertions.*;
 import static org.schabi.newpipe.extractor.ExtractorAsserts.assertEmpty;
 import static org.schabi.newpipe.extractor.ExtractorAsserts.assertIsSecureUrl;
-import static com.ppd.ersan.video.ServiceList.SoundCloud;
+import static vmeno.yyml.nnbersi.downd.ServiceList.SoundCloud;
 import static org.schabi.newpipe.extractor.services.DefaultTests.*;
 
 /**

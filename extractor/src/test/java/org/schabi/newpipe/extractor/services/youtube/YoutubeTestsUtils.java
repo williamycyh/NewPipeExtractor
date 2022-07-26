@@ -1,7 +1,7 @@
 package org.schabi.newpipe.extractor.services.youtube;
 
-import com.ppd.ersan.video.services.youtube.YoutubeParsingHelper;
-import com.ppd.ersan.video.services.youtube.extractors.YoutubeStreamExtractor;
+import vmeno.yyml.nnbersi.downd.services.youtube.YoutubeParsingHelper;
+import vmeno.yyml.nnbersi.downd.services.youtube.extractors.YoutubeStreamExtractor;
 
 import java.util.Random;
 

@@ -1,9 +1,9 @@
 package org.schabi.newpipe.downloader;
 
-import com.ppd.ersan.video.downloader.Downloader;
-import com.ppd.ersan.video.downloader.Request;
-import com.ppd.ersan.video.downloader.Response;
-import com.ppd.ersan.video.exceptions.ReCaptchaException;
+import vmeno.yyml.nnbersi.downd.downloader.Downloader;
+import vmeno.yyml.nnbersi.downd.downloader.Request;
+import vmeno.yyml.nnbersi.downd.downloader.Response;
+import vmeno.yyml.nnbersi.downd.exceptions.ReCaptchaException;
 
 import java.io.IOException;
 import java.util.List;

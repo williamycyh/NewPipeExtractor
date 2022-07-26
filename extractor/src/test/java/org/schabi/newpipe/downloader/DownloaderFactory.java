@@ -1,6 +1,6 @@
 package org.schabi.newpipe.downloader;
 
-import com.ppd.ersan.video.downloader.Downloader;
+import vmeno.yyml.nnbersi.downd.downloader.Downloader;
 
 import java.io.IOException;
 

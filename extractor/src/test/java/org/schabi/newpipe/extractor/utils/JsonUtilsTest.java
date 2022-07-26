@@ -6,8 +6,8 @@ import com.grack.nanojson.JsonObject;
 import com.grack.nanojson.JsonParser;
 import com.grack.nanojson.JsonParserException;
 import org.junit.jupiter.api.Test;
-import com.ppd.ersan.video.exceptions.ParsingException;
-import com.ppd.ersan.video.utils.JsonUtils;
+import vmeno.yyml.nnbersi.downd.exceptions.ParsingException;
+import vmeno.yyml.nnbersi.downd.utils.JsonUtils;
 
 import java.util.List;
 

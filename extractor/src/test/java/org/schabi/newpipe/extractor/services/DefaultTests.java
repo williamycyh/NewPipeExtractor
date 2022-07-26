@@ -1,14 +1,14 @@
 package org.schabi.newpipe.extractor.services;
 
-import com.ppd.ersan.video.InfoItem;
-import com.ppd.ersan.video.ListExtractor;
-import com.ppd.ersan.video.Page;
-import com.ppd.ersan.video.StreamingService;
-import com.ppd.ersan.video.channel.ChannelInfoItem;
-import com.ppd.ersan.video.exceptions.ParsingException;
-import com.ppd.ersan.video.localization.DateWrapper;
-import com.ppd.ersan.video.playlist.PlaylistInfoItem;
-import com.ppd.ersan.video.stream.StreamInfoItem;
+import vmeno.yyml.nnbersi.downd.InfoItem;
+import vmeno.yyml.nnbersi.downd.ListExtractor;
+import vmeno.yyml.nnbersi.downd.Page;
+import vmeno.yyml.nnbersi.downd.StreamingService;
+import vmeno.yyml.nnbersi.downd.channel.ChannelInfoItem;
+import vmeno.yyml.nnbersi.downd.exceptions.ParsingException;
+import vmeno.yyml.nnbersi.downd.localization.DateWrapper;
+import vmeno.yyml.nnbersi.downd.playlist.PlaylistInfoItem;
+import vmeno.yyml.nnbersi.downd.stream.StreamInfoItem;
 
 import java.util.HashSet;
 import java.util.List;
@@ -16,8 +16,8 @@ import java.util.Set;
 
 import static org.junit.jupiter.api.Assertions.*;
 import static org.schabi.newpipe.extractor.ExtractorAsserts.*;
-import static com.ppd.ersan.video.StreamingService.LinkType;
-import static com.ppd.ersan.video.utils.Utils.isNullOrEmpty;
+import static vmeno.yyml.nnbersi.downd.StreamingService.LinkType;
+import static vmeno.yyml.nnbersi.downd.utils.Utils.isNullOrEmpty;
 
 public final class DefaultTests {
     public static void defaultTestListOfItems(StreamingService expectedService, List<? extends InfoItem> itemsList, List<Throwable> errors) throws ParsingException {

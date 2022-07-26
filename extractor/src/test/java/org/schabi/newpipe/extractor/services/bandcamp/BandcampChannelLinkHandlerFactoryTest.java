@@ -5,9 +5,9 @@ package org.schabi.newpipe.extractor.services.bandcamp;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import org.schabi.newpipe.downloader.DownloaderTestImpl;
-import com.ppd.ersan.video.NewPipe;
-import com.ppd.ersan.video.exceptions.ParsingException;
-import com.ppd.ersan.video.services.bandcamp.linkHandler.BandcampChannelLinkHandlerFactory;
+import vmeno.yyml.nnbersi.downd.NewPipe;
+import vmeno.yyml.nnbersi.downd.exceptions.ParsingException;
+import vmeno.yyml.nnbersi.downd.services.bandcamp.linkHandler.BandcampChannelLinkHandlerFactory;
 
 import static org.junit.jupiter.api.Assertions.*;
 

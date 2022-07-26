@@ -1,17 +1,17 @@
 package org.schabi.newpipe.extractor.services.youtube;
 
 import static org.junit.jupiter.api.Assertions.fail;
-import static com.ppd.ersan.video.ServiceList.YouTube;
+import static vmeno.yyml.nnbersi.downd.ServiceList.YouTube;
 import static org.schabi.newpipe.extractor.services.DefaultTests.defaultTestRelatedItems;
 
 import org.junit.jupiter.api.Test;
 import org.schabi.newpipe.downloader.DownloaderFactory;
-import com.ppd.ersan.video.ListExtractor;
-import com.ppd.ersan.video.NewPipe;
-import com.ppd.ersan.video.channel.ChannelExtractor;
-import com.ppd.ersan.video.localization.DateWrapper;
-import com.ppd.ersan.video.localization.Localization;
-import com.ppd.ersan.video.stream.StreamInfoItem;
+import vmeno.yyml.nnbersi.downd.ListExtractor;
+import vmeno.yyml.nnbersi.downd.NewPipe;
+import vmeno.yyml.nnbersi.downd.channel.ChannelExtractor;
+import vmeno.yyml.nnbersi.downd.localization.DateWrapper;
+import vmeno.yyml.nnbersi.downd.localization.Localization;
+import vmeno.yyml.nnbersi.downd.stream.StreamInfoItem;
 
 import java.time.format.DateTimeFormatter;
 import java.time.temporal.ChronoUnit;

@@ -22,15 +22,15 @@ package org.schabi.newpipe.extractor.services.youtube;
 
 import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
-import static com.ppd.ersan.video.ServiceList.YouTube;
+import static vmeno.yyml.nnbersi.downd.ServiceList.YouTube;
 
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import org.schabi.newpipe.downloader.DownloaderFactory;
-import com.ppd.ersan.video.NewPipe;
-import com.ppd.ersan.video.StreamingService;
-import com.ppd.ersan.video.kiosk.KioskInfo;
-import com.ppd.ersan.video.linkhandler.LinkHandlerFactory;
+import vmeno.yyml.nnbersi.downd.NewPipe;
+import vmeno.yyml.nnbersi.downd.StreamingService;
+import vmeno.yyml.nnbersi.downd.kis.KioskInfo;
+import vmeno.yyml.nnbersi.downd.linkhandler.LinkHandlerFactory;
 
 /**
  * Test for {@link KioskInfo}

@@ -6,20 +6,20 @@ import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.Timeout;
 import org.schabi.newpipe.downloader.DownloaderTestImpl;
-import com.ppd.ersan.video.NewPipe;
-import com.ppd.ersan.video.exceptions.ContentNotAvailableException;
-import com.ppd.ersan.video.exceptions.ExtractionException;
-import com.ppd.ersan.video.exceptions.ParsingException;
-import com.ppd.ersan.video.playlist.PlaylistExtractor;
+import vmeno.yyml.nnbersi.downd.NewPipe;
+import vmeno.yyml.nnbersi.downd.exceptions.ContentNotAvailableException;
+import vmeno.yyml.nnbersi.downd.exceptions.ExtractionException;
+import vmeno.yyml.nnbersi.downd.exceptions.ParsingException;
+import vmeno.yyml.nnbersi.downd.playlist.PlaylistExtractor;
 import org.schabi.newpipe.extractor.services.BasePlaylistExtractorTest;
-import com.ppd.ersan.video.services.bandcamp.extractors.BandcampPlaylistExtractor;
-import com.ppd.ersan.video.stream.StreamInfoItem;
+import vmeno.yyml.nnbersi.downd.services.bandcamp.extractors.BandcampPlaylistExtractor;
+import vmeno.yyml.nnbersi.downd.stream.StreamInfoItem;
 
 import java.io.IOException;
 import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
-import static com.ppd.ersan.video.ServiceList.Bandcamp;
+import static vmeno.yyml.nnbersi.downd.ServiceList.Bandcamp;
 
 /**
  * Tests for {@link BandcampPlaylistExtractor}

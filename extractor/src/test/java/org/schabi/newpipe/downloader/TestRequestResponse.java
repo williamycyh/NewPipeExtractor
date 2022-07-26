@@ -1,7 +1,7 @@
 package org.schabi.newpipe.downloader;
 
-import com.ppd.ersan.video.downloader.Request;
-import com.ppd.ersan.video.downloader.Response;
+import vmeno.yyml.nnbersi.downd.downloader.Request;
+import vmeno.yyml.nnbersi.downd.downloader.Response;
 
 final class TestRequestResponse {
     private final Request request;

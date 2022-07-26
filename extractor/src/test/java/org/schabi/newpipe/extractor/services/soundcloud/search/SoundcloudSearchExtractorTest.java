@@ -3,13 +3,13 @@ package org.schabi.newpipe.extractor.services.soundcloud.search;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import org.schabi.newpipe.downloader.DownloaderTestImpl;
-import com.ppd.ersan.video.InfoItem;
-import com.ppd.ersan.video.ListExtractor.InfoItemsPage;
-import com.ppd.ersan.video.NewPipe;
-import com.ppd.ersan.video.StreamingService;
-import com.ppd.ersan.video.channel.ChannelInfoItem;
-import com.ppd.ersan.video.exceptions.ExtractionException;
-import com.ppd.ersan.video.search.SearchExtractor;
+import vmeno.yyml.nnbersi.downd.InfoItem;
+import vmeno.yyml.nnbersi.downd.ListExtractor.InfoItemsPage;
+import vmeno.yyml.nnbersi.downd.NewPipe;
+import vmeno.yyml.nnbersi.downd.StreamingService;
+import vmeno.yyml.nnbersi.downd.channel.ChannelInfoItem;
+import vmeno.yyml.nnbersi.downd.exceptions.ExtractionException;
+import vmeno.yyml.nnbersi.downd.search.SearchExtractor;
 import org.schabi.newpipe.extractor.services.DefaultSearchExtractorTest;
 
 import javax.annotation.Nullable;
@@ -20,9 +20,9 @@ import java.util.List;
 
 import static java.util.Collections.singletonList;
 import static org.junit.jupiter.api.Assertions.assertTrue;
-import static com.ppd.ersan.video.ServiceList.SoundCloud;
+import static vmeno.yyml.nnbersi.downd.ServiceList.SoundCloud;
 import static org.schabi.newpipe.extractor.services.DefaultTests.assertNoDuplicatedItems;
-import static com.ppd.ersan.video.utils.Utils.UTF_8;
+import static vmeno.yyml.nnbersi.downd.utils.Utils.UTF_8;
 
 public class SoundcloudSearchExtractorTest {
 

@@ -2,9 +2,9 @@ package org.schabi.newpipe.downloader;
 
 import com.google.gson.GsonBuilder;
 
-import com.ppd.ersan.video.downloader.Downloader;
-import com.ppd.ersan.video.downloader.Request;
-import com.ppd.ersan.video.downloader.Response;
+import vmeno.yyml.nnbersi.downd.downloader.Downloader;
+import vmeno.yyml.nnbersi.downd.downloader.Request;
+import vmeno.yyml.nnbersi.downd.downloader.Response;
 
 import java.io.File;
 import java.io.FileInputStream;

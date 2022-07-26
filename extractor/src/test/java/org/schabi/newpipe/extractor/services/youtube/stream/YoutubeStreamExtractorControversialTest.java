@@ -1,16 +1,16 @@
 package org.schabi.newpipe.extractor.services.youtube.stream;
 
-import static com.ppd.ersan.video.ServiceList.YouTube;
+import static vmeno.yyml.nnbersi.downd.ServiceList.YouTube;
 
 import org.junit.jupiter.api.BeforeAll;
 import org.schabi.newpipe.downloader.DownloaderFactory;
-import com.ppd.ersan.video.NewPipe;
-import com.ppd.ersan.video.StreamingService;
+import vmeno.yyml.nnbersi.downd.NewPipe;
+import vmeno.yyml.nnbersi.downd.StreamingService;
 import org.schabi.newpipe.extractor.services.DefaultStreamExtractorTest;
 import org.schabi.newpipe.extractor.services.youtube.YoutubeTestsUtils;
-import com.ppd.ersan.video.services.youtube.linkHandler.YoutubeStreamLinkHandlerFactory;
-import com.ppd.ersan.video.stream.StreamExtractor;
-import com.ppd.ersan.video.stream.StreamType;
+import vmeno.yyml.nnbersi.downd.services.youtube.linkHandler.YoutubeStreamLinkHandlerFactory;
+import vmeno.yyml.nnbersi.downd.stream.StreamExtractor;
+import vmeno.yyml.nnbersi.downd.stream.StreamType;
 
 import java.util.Arrays;
 import java.util.List;

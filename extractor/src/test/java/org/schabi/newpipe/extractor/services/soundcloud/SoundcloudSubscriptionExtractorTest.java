@@ -5,12 +5,12 @@ import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.ValueSource;
 import org.schabi.newpipe.downloader.DownloaderTestImpl;
-import com.ppd.ersan.video.NewPipe;
-import com.ppd.ersan.video.ServiceList;
-import com.ppd.ersan.video.linkhandler.LinkHandlerFactory;
-import com.ppd.ersan.video.services.soundcloud.extractors.SoundcloudSubscriptionExtractor;
-import com.ppd.ersan.video.subscription.SubscriptionExtractor;
-import com.ppd.ersan.video.subscription.SubscriptionItem;
+import vmeno.yyml.nnbersi.downd.NewPipe;
+import vmeno.yyml.nnbersi.downd.ServiceList;
+import vmeno.yyml.nnbersi.downd.linkhandler.LinkHandlerFactory;
+import vmeno.yyml.nnbersi.downd.services.soundcloud.extractors.SoundcloudSubscriptionExtractor;
+import vmeno.yyml.nnbersi.downd.subscription.SubscriptionExtractor;
+import vmeno.yyml.nnbersi.downd.subscription.SubscriptionItem;
 
 import static org.junit.jupiter.api.Assertions.*;
 

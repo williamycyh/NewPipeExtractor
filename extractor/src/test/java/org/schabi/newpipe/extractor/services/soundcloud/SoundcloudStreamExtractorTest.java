@@ -5,15 +5,15 @@ import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import org.schabi.newpipe.downloader.DownloaderTestImpl;
 import org.schabi.newpipe.extractor.ExtractorAsserts;
-import com.ppd.ersan.video.MediaFormat;
-import com.ppd.ersan.video.NewPipe;
-import com.ppd.ersan.video.StreamingService;
-import com.ppd.ersan.video.exceptions.GeographicRestrictionException;
-import com.ppd.ersan.video.exceptions.SoundCloudGoPlusContentException;
+import vmeno.yyml.nnbersi.downd.MediaFormat;
+import vmeno.yyml.nnbersi.downd.NewPipe;
+import vmeno.yyml.nnbersi.downd.StreamingService;
+import vmeno.yyml.nnbersi.downd.exceptions.GeographicRestrictionException;
+import vmeno.yyml.nnbersi.downd.exceptions.SoundCloudGoPlusContentException;
 import org.schabi.newpipe.extractor.services.DefaultStreamExtractorTest;
-import com.ppd.ersan.video.stream.AudioStream;
-import com.ppd.ersan.video.stream.StreamExtractor;
-import com.ppd.ersan.video.stream.StreamType;
+import vmeno.yyml.nnbersi.downd.stream.AudioStream;
+import vmeno.yyml.nnbersi.downd.stream.StreamExtractor;
+import vmeno.yyml.nnbersi.downd.stream.StreamType;
 
 import java.util.Arrays;
 import java.util.Collections;
@@ -22,7 +22,7 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static com.ppd.ersan.video.ServiceList.SoundCloud;
+import static vmeno.yyml.nnbersi.downd.ServiceList.SoundCloud;
 
 public class SoundcloudStreamExtractorTest {
     private static final String SOUNDCLOUD = "https://soundcloud.com/";

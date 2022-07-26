@@ -4,17 +4,17 @@ import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import org.schabi.newpipe.downloader.DownloaderTestImpl;
 import org.schabi.newpipe.extractor.ExtractorAsserts;
-import com.ppd.ersan.video.NewPipe;
-import com.ppd.ersan.video.channel.ChannelExtractor;
-import com.ppd.ersan.video.exceptions.ParsingException;
+import vmeno.yyml.nnbersi.downd.NewPipe;
+import vmeno.yyml.nnbersi.downd.channel.ChannelExtractor;
+import vmeno.yyml.nnbersi.downd.exceptions.ParsingException;
 import org.schabi.newpipe.extractor.services.BaseChannelExtractorTest;
 
-import com.ppd.ersan.video.services.peertube.PeertubeInstance;
-import com.ppd.ersan.video.services.peertube.extractors.PeertubeAccountExtractor;
+import vmeno.yyml.nnbersi.downd.services.peertube.PeertubeInstance;
+import vmeno.yyml.nnbersi.downd.services.peertube.extractors.PeertubeAccountExtractor;
 
 import static org.junit.jupiter.api.Assertions.*;
 import static org.schabi.newpipe.extractor.ExtractorAsserts.assertIsSecureUrl;
-import static com.ppd.ersan.video.ServiceList.PeerTube;
+import static vmeno.yyml.nnbersi.downd.ServiceList.PeerTube;
 import static org.schabi.newpipe.extractor.services.DefaultTests.*;
 
 /**

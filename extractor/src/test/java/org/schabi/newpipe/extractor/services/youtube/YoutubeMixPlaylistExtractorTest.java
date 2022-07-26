@@ -5,7 +5,7 @@ import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 import static org.schabi.newpipe.extractor.ExtractorAsserts.assertIsSecureUrl;
-import static com.ppd.ersan.video.ServiceList.YouTube;
+import static vmeno.yyml.nnbersi.downd.ServiceList.YouTube;
 
 import com.grack.nanojson.JsonWriter;
 
@@ -13,15 +13,15 @@ import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import org.schabi.newpipe.downloader.DownloaderFactory;
 import org.schabi.newpipe.extractor.ExtractorAsserts;
-import com.ppd.ersan.video.ListExtractor;
-import com.ppd.ersan.video.ListExtractor.InfoItemsPage;
-import com.ppd.ersan.video.NewPipe;
-import com.ppd.ersan.video.Page;
-import com.ppd.ersan.video.exceptions.ExtractionException;
-import com.ppd.ersan.video.exceptions.ParsingException;
-import com.ppd.ersan.video.playlist.PlaylistInfo;
-import com.ppd.ersan.video.services.youtube.extractors.YoutubeMixPlaylistExtractor;
-import com.ppd.ersan.video.stream.StreamInfoItem;
+import vmeno.yyml.nnbersi.downd.ListExtractor;
+import vmeno.yyml.nnbersi.downd.ListExtractor.InfoItemsPage;
+import vmeno.yyml.nnbersi.downd.NewPipe;
+import vmeno.yyml.nnbersi.downd.Page;
+import vmeno.yyml.nnbersi.downd.exceptions.ExtractionException;
+import vmeno.yyml.nnbersi.downd.exceptions.ParsingException;
+import vmeno.yyml.nnbersi.downd.playlist.PlaylistInfo;
+import vmeno.yyml.nnbersi.downd.services.youtube.extractors.YoutubeMixPlaylistExtractor;
+import vmeno.yyml.nnbersi.downd.stream.StreamInfoItem;
 
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
