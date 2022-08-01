@@ -1,18 +1,18 @@
 package org.schabi.newpipe.extractor.services.youtube.search;
 
-import static vmeno.yyml.nnbersi.downd.ServiceList.YouTube;
+import static music.player.extract.downd.ServiceList.YouTube;
 import static java.util.Collections.singletonList;
 
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Disabled;
 import org.schabi.newpipe.downloader.DownloaderTestImpl;
 
-import vmeno.yyml.nnbersi.downd.InfoItem;
-import vmeno.yyml.nnbersi.downd.NewPipe;
-import vmeno.yyml.nnbersi.downd.StreamingService;
-import vmeno.yyml.nnbersi.downd.search.SearchExtractor;
+import music.player.extract.downd.InfoItem;
+import music.player.extract.downd.NewPipe;
+import music.player.extract.downd.StreamingService;
+import music.player.extract.downd.search.SearchExtractor;
 import org.schabi.newpipe.extractor.services.DefaultSearchExtractorTest;
-import vmeno.yyml.nnbersi.downd.services.youtube.linkHandler.YoutubeSearchQueryHandlerFactory;
+import music.player.extract.downd.services.youtube.linkHandler.YoutubeSearchQueryHandlerFactory;
 
 import java.net.URLEncoder;
 

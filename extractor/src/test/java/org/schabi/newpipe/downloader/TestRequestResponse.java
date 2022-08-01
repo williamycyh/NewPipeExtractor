@@ -1,7 +1,7 @@
 package org.schabi.newpipe.downloader;
 
-import vmeno.yyml.nnbersi.downd.downloader.Request;
-import vmeno.yyml.nnbersi.downd.downloader.Response;
+import music.player.extract.downd.downloader.Request;
+import music.player.extract.downd.downloader.Response;
 
 final class TestRequestResponse {
     private final Request request;

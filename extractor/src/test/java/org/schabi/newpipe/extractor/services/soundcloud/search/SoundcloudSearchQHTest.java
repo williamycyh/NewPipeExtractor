@@ -3,11 +3,11 @@ package org.schabi.newpipe.extractor.services.soundcloud.search;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import org.schabi.newpipe.downloader.DownloaderTestImpl;
-import vmeno.yyml.nnbersi.downd.NewPipe;
+import music.player.extract.downd.NewPipe;
 
 import static java.util.Arrays.asList;
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static vmeno.yyml.nnbersi.downd.ServiceList.SoundCloud;
+import static music.player.extract.downd.ServiceList.SoundCloud;
 
 public class SoundcloudSearchQHTest {
 

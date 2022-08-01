@@ -5,18 +5,18 @@ import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import org.schabi.newpipe.downloader.DownloaderTestImpl;
 import org.schabi.newpipe.extractor.ExtractorAsserts;
-import vmeno.yyml.nnbersi.downd.ListExtractor;
-import vmeno.yyml.nnbersi.downd.NewPipe;
-import vmeno.yyml.nnbersi.downd.exceptions.ParsingException;
-import vmeno.yyml.nnbersi.downd.playlist.PlaylistExtractor;
+import music.player.extract.downd.ListExtractor;
+import music.player.extract.downd.NewPipe;
+import music.player.extract.downd.exceptions.ParsingException;
+import music.player.extract.downd.playlist.PlaylistExtractor;
 import org.schabi.newpipe.extractor.services.BasePlaylistExtractorTest;
-import vmeno.yyml.nnbersi.downd.services.soundcloud.extractors.SoundcloudPlaylistExtractor;
-import vmeno.yyml.nnbersi.downd.stream.StreamInfoItem;
+import music.player.extract.downd.services.soundcloud.extractors.SoundcloudPlaylistExtractor;
+import music.player.extract.downd.stream.StreamInfoItem;
 
 import static org.junit.jupiter.api.Assertions.*;
 import static org.schabi.newpipe.extractor.ExtractorAsserts.assertEmpty;
 import static org.schabi.newpipe.extractor.ExtractorAsserts.assertIsSecureUrl;
-import static vmeno.yyml.nnbersi.downd.ServiceList.SoundCloud;
+import static music.player.extract.downd.ServiceList.SoundCloud;
 import static org.schabi.newpipe.extractor.services.DefaultTests.*;
 
 /**

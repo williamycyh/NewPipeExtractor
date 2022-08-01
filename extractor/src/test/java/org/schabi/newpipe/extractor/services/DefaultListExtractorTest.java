@@ -1,8 +1,8 @@
 package org.schabi.newpipe.extractor.services;
 
 import org.junit.jupiter.api.Test;
-import vmeno.yyml.nnbersi.downd.InfoItem;
-import vmeno.yyml.nnbersi.downd.ListExtractor;
+import music.player.extract.downd.InfoItem;
+import music.player.extract.downd.ListExtractor;
 
 import javax.annotation.Nullable;
 

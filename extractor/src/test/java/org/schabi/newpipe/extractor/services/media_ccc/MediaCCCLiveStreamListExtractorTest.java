@@ -3,13 +3,13 @@ package org.schabi.newpipe.extractor.services.media_ccc;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import org.schabi.newpipe.downloader.DownloaderTestImpl;
-import vmeno.yyml.nnbersi.downd.InfoItem;
-import vmeno.yyml.nnbersi.downd.NewPipe;
-import vmeno.yyml.nnbersi.downd.kis.KioskExtractor;
+import music.player.extract.downd.InfoItem;
+import music.player.extract.downd.NewPipe;
+import music.player.extract.downd.kis.KioskExtractor;
 
 import java.util.List;
 
-import static vmeno.yyml.nnbersi.downd.ServiceList.MediaCCC;
+import static music.player.extract.downd.ServiceList.MediaCCC;
 
 public class MediaCCCLiveStreamListExtractorTest {
     private static KioskExtractor extractor;

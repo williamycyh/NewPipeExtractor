@@ -3,15 +3,15 @@ package org.schabi.newpipe.extractor.services.bandcamp;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import org.schabi.newpipe.downloader.DownloaderTestImpl;
-import vmeno.yyml.nnbersi.downd.NewPipe;
-import vmeno.yyml.nnbersi.downd.StreamingService;
-import vmeno.yyml.nnbersi.downd.exceptions.ContentNotSupportedException;
-import vmeno.yyml.nnbersi.downd.exceptions.ExtractionException;
-import vmeno.yyml.nnbersi.downd.exceptions.ParsingException;
+import music.player.extract.downd.NewPipe;
+import music.player.extract.downd.StreamingService;
+import music.player.extract.downd.exceptions.ContentNotSupportedException;
+import music.player.extract.downd.exceptions.ExtractionException;
+import music.player.extract.downd.exceptions.ParsingException;
 import org.schabi.newpipe.extractor.services.DefaultStreamExtractorTest;
-import vmeno.yyml.nnbersi.downd.services.bandcamp.extractors.BandcampRadioStreamExtractor;
-import vmeno.yyml.nnbersi.downd.stream.StreamExtractor;
-import vmeno.yyml.nnbersi.downd.stream.StreamType;
+import music.player.extract.downd.services.bandcamp.extractors.BandcampRadioStreamExtractor;
+import music.player.extract.downd.stream.StreamExtractor;
+import music.player.extract.downd.stream.StreamType;
 
 import java.io.IOException;
 import java.util.Calendar;
@@ -20,7 +20,7 @@ import java.util.List;
 import java.util.TimeZone;
 
 import static org.junit.jupiter.api.Assertions.*;
-import static vmeno.yyml.nnbersi.downd.ServiceList.Bandcamp;
+import static music.player.extract.downd.ServiceList.Bandcamp;
 
 public class BandcampRadioStreamExtractorTest extends DefaultStreamExtractorTest {
 

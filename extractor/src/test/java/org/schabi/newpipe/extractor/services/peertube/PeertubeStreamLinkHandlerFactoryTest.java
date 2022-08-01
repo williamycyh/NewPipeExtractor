@@ -3,13 +3,13 @@ package org.schabi.newpipe.extractor.services.peertube;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import org.schabi.newpipe.downloader.DownloaderTestImpl;
-import vmeno.yyml.nnbersi.downd.NewPipe;
-import vmeno.yyml.nnbersi.downd.exceptions.ParsingException;
-import vmeno.yyml.nnbersi.downd.services.peertube.PeertubeInstance;
-import vmeno.yyml.nnbersi.downd.services.peertube.linkHandler.PeertubeStreamLinkHandlerFactory;
+import music.player.extract.downd.NewPipe;
+import music.player.extract.downd.exceptions.ParsingException;
+import music.player.extract.downd.services.peertube.PeertubeInstance;
+import music.player.extract.downd.services.peertube.linkHandler.PeertubeStreamLinkHandlerFactory;
 
 import static org.junit.jupiter.api.Assertions.*;
-import static vmeno.yyml.nnbersi.downd.ServiceList.PeerTube;
+import static music.player.extract.downd.ServiceList.PeerTube;
 
 /**
  * Test for {@link PeertubeStreamLinkHandlerFactory}

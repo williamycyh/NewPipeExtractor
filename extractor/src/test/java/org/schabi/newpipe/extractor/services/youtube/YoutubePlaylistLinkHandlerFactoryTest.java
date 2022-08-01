@@ -3,9 +3,9 @@ package org.schabi.newpipe.extractor.services.youtube;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import org.schabi.newpipe.downloader.DownloaderTestImpl;
-import vmeno.yyml.nnbersi.downd.NewPipe;
-import vmeno.yyml.nnbersi.downd.exceptions.ParsingException;
-import vmeno.yyml.nnbersi.downd.services.youtube.linkHandler.YoutubePlaylistLinkHandlerFactory;
+import music.player.extract.downd.NewPipe;
+import music.player.extract.downd.exceptions.ParsingException;
+import music.player.extract.downd.services.youtube.linkHandler.YoutubePlaylistLinkHandlerFactory;
 
 import static org.junit.jupiter.api.Assertions.*;
 

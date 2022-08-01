@@ -1,17 +1,17 @@
 package org.schabi.newpipe.extractor;
 
-import vmeno.yyml.nnbersi.downd.NewPipe;
-import vmeno.yyml.nnbersi.downd.ServiceList;
-import vmeno.yyml.nnbersi.downd.StreamingService;
+import music.player.extract.downd.NewPipe;
+import music.player.extract.downd.ServiceList;
+import music.player.extract.downd.StreamingService;
 
 import org.junit.jupiter.api.Test;
 
 import java.util.HashSet;
 
 import static org.junit.jupiter.api.Assertions.*;
-import static vmeno.yyml.nnbersi.downd.NewPipe.getServiceByUrl;
-import static vmeno.yyml.nnbersi.downd.ServiceList.SoundCloud;
-import static vmeno.yyml.nnbersi.downd.ServiceList.YouTube;
+import static music.player.extract.downd.NewPipe.getServiceByUrl;
+import static music.player.extract.downd.ServiceList.SoundCloud;
+import static music.player.extract.downd.ServiceList.YouTube;
 
 public class NewPipeTest {
     @Test

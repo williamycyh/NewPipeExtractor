@@ -3,12 +3,12 @@ package org.schabi.newpipe.extractor.services.media_ccc;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import org.schabi.newpipe.downloader.DownloaderTestImpl;
-import vmeno.yyml.nnbersi.downd.NewPipe;
-import vmeno.yyml.nnbersi.downd.services.media_ccc.extractors.MediaCCCConferenceExtractor;
+import music.player.extract.downd.NewPipe;
+import music.player.extract.downd.services.media_ccc.extractors.MediaCCCConferenceExtractor;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
-import static vmeno.yyml.nnbersi.downd.ServiceList.MediaCCC;
+import static music.player.extract.downd.ServiceList.MediaCCC;
 
 /**
  * Test {@link MediaCCCConferenceExtractor}

@@ -3,14 +3,14 @@ package org.schabi.newpipe.extractor.services.peertube;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import org.schabi.newpipe.downloader.DownloaderTestImpl;
-import vmeno.yyml.nnbersi.downd.ListExtractor.InfoItemsPage;
-import vmeno.yyml.nnbersi.downd.NewPipe;
-import vmeno.yyml.nnbersi.downd.Page;
-import vmeno.yyml.nnbersi.downd.comments.CommentsInfo;
-import vmeno.yyml.nnbersi.downd.comments.CommentsInfoItem;
-import vmeno.yyml.nnbersi.downd.exceptions.ExtractionException;
-import vmeno.yyml.nnbersi.downd.services.peertube.extractors.PeertubeCommentsExtractor;
-import vmeno.yyml.nnbersi.downd.utils.Utils;
+import music.player.extract.downd.ListExtractor.InfoItemsPage;
+import music.player.extract.downd.NewPipe;
+import music.player.extract.downd.Page;
+import music.player.extract.downd.comments.CommentsInfo;
+import music.player.extract.downd.comments.CommentsInfoItem;
+import music.player.extract.downd.exceptions.ExtractionException;
+import music.player.extract.downd.services.peertube.extractors.PeertubeCommentsExtractor;
+import music.player.extract.downd.utils.Utils;
 
 import java.io.IOException;
 import java.util.List;
@@ -18,7 +18,7 @@ import java.util.List;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
-import static vmeno.yyml.nnbersi.downd.ServiceList.PeerTube;
+import static music.player.extract.downd.ServiceList.PeerTube;
 
 public class PeertubeCommentsExtractorTest {
     public static class Default {

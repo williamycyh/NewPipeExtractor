@@ -1,6 +1,6 @@
 package org.schabi.newpipe.downloader;
 
-import vmeno.yyml.nnbersi.downd.downloader.Downloader;
+import music.player.extract.downd.downloader.Downloader;
 
 import java.io.IOException;
 

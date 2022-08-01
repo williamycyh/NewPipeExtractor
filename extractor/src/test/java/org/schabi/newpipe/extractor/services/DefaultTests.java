@@ -1,14 +1,14 @@
 package org.schabi.newpipe.extractor.services;
 
-import vmeno.yyml.nnbersi.downd.InfoItem;
-import vmeno.yyml.nnbersi.downd.ListExtractor;
-import vmeno.yyml.nnbersi.downd.Page;
-import vmeno.yyml.nnbersi.downd.StreamingService;
-import vmeno.yyml.nnbersi.downd.channel.ChannelInfoItem;
-import vmeno.yyml.nnbersi.downd.exceptions.ParsingException;
-import vmeno.yyml.nnbersi.downd.localization.DateWrapper;
-import vmeno.yyml.nnbersi.downd.playlist.PlaylistInfoItem;
-import vmeno.yyml.nnbersi.downd.stream.StreamInfoItem;
+import music.player.extract.downd.InfoItem;
+import music.player.extract.downd.ListExtractor;
+import music.player.extract.downd.Page;
+import music.player.extract.downd.StreamingService;
+import music.player.extract.downd.channel.ChannelInfoItem;
+import music.player.extract.downd.exceptions.ParsingException;
+import music.player.extract.downd.localization.DateWrapper;
+import music.player.extract.downd.playlist.PlaylistInfoItem;
+import music.player.extract.downd.stream.StreamInfoItem;
 
 import java.util.HashSet;
 import java.util.List;
@@ -16,8 +16,8 @@ import java.util.Set;
 
 import static org.junit.jupiter.api.Assertions.*;
 import static org.schabi.newpipe.extractor.ExtractorAsserts.*;
-import static vmeno.yyml.nnbersi.downd.StreamingService.LinkType;
-import static vmeno.yyml.nnbersi.downd.utils.Utils.isNullOrEmpty;
+import static music.player.extract.downd.StreamingService.LinkType;
+import static music.player.extract.downd.utils.Utils.isNullOrEmpty;
 
 public final class DefaultTests {
     public static void defaultTestListOfItems(StreamingService expectedService, List<? extends InfoItem> itemsList, List<Throwable> errors) throws ParsingException {

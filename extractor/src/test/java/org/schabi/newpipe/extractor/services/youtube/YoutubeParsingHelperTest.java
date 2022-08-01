@@ -6,10 +6,10 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import org.schabi.newpipe.downloader.DownloaderFactory;
-import vmeno.yyml.nnbersi.downd.NewPipe;
-import vmeno.yyml.nnbersi.downd.exceptions.ExtractionException;
-import vmeno.yyml.nnbersi.downd.exceptions.ParsingException;
-import vmeno.yyml.nnbersi.downd.services.youtube.YoutubeParsingHelper;
+import music.player.extract.downd.NewPipe;
+import music.player.extract.downd.exceptions.ExtractionException;
+import music.player.extract.downd.exceptions.ParsingException;
+import music.player.extract.downd.services.youtube.YoutubeParsingHelper;
 
 import java.io.IOException;
 

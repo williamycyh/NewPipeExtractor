@@ -4,8 +4,8 @@ package org.schabi.newpipe.extractor.services.bandcamp;
 
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
-import vmeno.yyml.nnbersi.downd.exceptions.ParsingException;
-import vmeno.yyml.nnbersi.downd.services.bandcamp.linkHandler.BandcampFeaturedLinkHandlerFactory;
+import music.player.extract.downd.exceptions.ParsingException;
+import music.player.extract.downd.services.bandcamp.linkHandler.BandcampFeaturedLinkHandlerFactory;
 
 import static org.junit.jupiter.api.Assertions.*;
 

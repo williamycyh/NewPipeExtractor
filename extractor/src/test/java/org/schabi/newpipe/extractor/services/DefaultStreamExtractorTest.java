@@ -2,17 +2,17 @@ package org.schabi.newpipe.extractor.services;
 
 import org.junit.jupiter.api.Test;
 import org.schabi.newpipe.extractor.ExtractorAsserts;
-import vmeno.yyml.nnbersi.downd.InfoItemsCollector;
-import vmeno.yyml.nnbersi.downd.MediaFormat;
-import vmeno.yyml.nnbersi.downd.MetaInfo;
-import vmeno.yyml.nnbersi.downd.localization.DateWrapper;
-import vmeno.yyml.nnbersi.downd.stream.AudioStream;
-import vmeno.yyml.nnbersi.downd.stream.Description;
-import vmeno.yyml.nnbersi.downd.stream.Frameset;
-import vmeno.yyml.nnbersi.downd.stream.StreamExtractor;
-import vmeno.yyml.nnbersi.downd.stream.StreamType;
-import vmeno.yyml.nnbersi.downd.stream.SubtitlesStream;
-import vmeno.yyml.nnbersi.downd.stream.VideoStream;
+import music.player.extract.downd.InfoItemsCollector;
+import music.player.extract.downd.MediaFormat;
+import music.player.extract.downd.MetaInfo;
+import music.player.extract.downd.localization.DateWrapper;
+import music.player.extract.downd.stream.AudioStream;
+import music.player.extract.downd.stream.Description;
+import music.player.extract.downd.stream.Frameset;
+import music.player.extract.downd.stream.StreamExtractor;
+import music.player.extract.downd.stream.StreamType;
+import music.player.extract.downd.stream.SubtitlesStream;
+import music.player.extract.downd.stream.VideoStream;
 
 import javax.annotation.Nullable;
 import java.time.LocalDateTime;
@@ -34,7 +34,7 @@ import static org.schabi.newpipe.extractor.ExtractorAsserts.assertEqualsOrderInd
 import static org.schabi.newpipe.extractor.ExtractorAsserts.assertIsSecureUrl;
 import static org.schabi.newpipe.extractor.ExtractorAsserts.assertIsValidUrl;
 import static org.schabi.newpipe.extractor.services.DefaultTests.defaultTestListOfItems;
-import static vmeno.yyml.nnbersi.downd.stream.StreamExtractor.UNKNOWN_SUBSCRIBER_COUNT;
+import static music.player.extract.downd.stream.StreamExtractor.UNKNOWN_SUBSCRIBER_COUNT;
 
 /**
  * Test for {@link StreamExtractor}

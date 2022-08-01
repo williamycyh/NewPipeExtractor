@@ -6,24 +6,24 @@ import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import org.schabi.newpipe.downloader.DownloaderTestImpl;
 
-import vmeno.yyml.nnbersi.downd.InfoItem;
-import vmeno.yyml.nnbersi.downd.ListExtractor;
-import vmeno.yyml.nnbersi.downd.NewPipe;
-import vmeno.yyml.nnbersi.downd.Page;
-import vmeno.yyml.nnbersi.downd.StreamingService;
-import vmeno.yyml.nnbersi.downd.exceptions.ExtractionException;
-import vmeno.yyml.nnbersi.downd.playlist.PlaylistInfoItem;
-import vmeno.yyml.nnbersi.downd.search.SearchExtractor;
+import music.player.extract.downd.InfoItem;
+import music.player.extract.downd.ListExtractor;
+import music.player.extract.downd.NewPipe;
+import music.player.extract.downd.Page;
+import music.player.extract.downd.StreamingService;
+import music.player.extract.downd.exceptions.ExtractionException;
+import music.player.extract.downd.playlist.PlaylistInfoItem;
+import music.player.extract.downd.search.SearchExtractor;
 import org.schabi.newpipe.extractor.services.DefaultSearchExtractorTest;
-import vmeno.yyml.nnbersi.downd.services.bandcamp.extractors.BandcampSearchExtractor;
-import vmeno.yyml.nnbersi.downd.stream.StreamInfoItem;
+import music.player.extract.downd.services.bandcamp.extractors.BandcampSearchExtractor;
+import music.player.extract.downd.stream.StreamInfoItem;
 
 import javax.annotation.Nullable;
 import java.io.IOException;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
-import static vmeno.yyml.nnbersi.downd.ServiceList.Bandcamp;
+import static music.player.extract.downd.ServiceList.Bandcamp;
 
 /**
  * Test for {@link BandcampSearchExtractor}

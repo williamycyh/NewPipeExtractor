@@ -1,9 +1,9 @@
 package org.schabi.newpipe.downloader;
 
-import vmeno.yyml.nnbersi.downd.downloader.Downloader;
-import vmeno.yyml.nnbersi.downd.downloader.Request;
-import vmeno.yyml.nnbersi.downd.downloader.Response;
-import vmeno.yyml.nnbersi.downd.exceptions.ReCaptchaException;
+import music.player.extract.downd.downloader.Downloader;
+import music.player.extract.downd.downloader.Request;
+import music.player.extract.downd.downloader.Response;
+import music.player.extract.downd.exceptions.ReCaptchaException;
 
 import java.io.IOException;
 import java.util.List;
