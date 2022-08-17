@@ -1,13 +1,5 @@
 package music.player.extract.downd.services.youtube;
 
-import music.player.extract.downd.services.youtube.extractors.YoutubeChannelExtractor;
-import music.player.extract.downd.services.youtube.linkHandler.YoutubeChannelLinkHandlerFactory;
-import music.player.extract.downd.services.youtube.linkHandler.YoutubeCommentsLinkHandlerFactory;
-import music.player.extract.downd.services.youtube.linkHandler.YoutubePlaylistLinkHandlerFactory;
-import music.player.extract.downd.services.youtube.linkHandler.YoutubeSearchQueryHandlerFactory;
-import music.player.extract.downd.services.youtube.linkHandler.YoutubeStreamLinkHandlerFactory;
-import music.player.extract.downd.services.youtube.linkHandler.YoutubeTrendingLinkHandlerFactory;
-
 import static music.player.extract.downd.StreamingService.ServiceInfo.MediaCapability.AUDIO;
 import static music.player.extract.downd.StreamingService.ServiceInfo.MediaCapability.COMMENTS;
 import static music.player.extract.downd.StreamingService.ServiceInfo.MediaCapability.LIVE;
@@ -30,6 +22,7 @@ import music.player.extract.downd.localization.ContentCountry;
 import music.player.extract.downd.localization.Localization;
 import music.player.extract.downd.playlist.PlaylistExtractor;
 import music.player.extract.downd.search.SearchExtractor;
+import music.player.extract.downd.services.youtube.extractors.YoutubeChannelExtractor;
 import music.player.extract.downd.services.youtube.extractors.YoutubeCommentsExtractor;
 import music.player.extract.downd.services.youtube.extractors.YoutubeFeedExtractor;
 import music.player.extract.downd.services.youtube.extractors.YoutubeMixPlaylistExtractor;
@@ -40,6 +33,12 @@ import music.player.extract.downd.services.youtube.extractors.YoutubeStreamExtra
 import music.player.extract.downd.services.youtube.extractors.YoutubeSubscriptionExtractor;
 import music.player.extract.downd.services.youtube.extractors.YoutubeSuggestionExtractor;
 import music.player.extract.downd.services.youtube.extractors.YoutubeTrendingExtractor;
+import music.player.extract.downd.services.youtube.linkHandler.YoutubeChannelLinkHandlerFactory;
+import music.player.extract.downd.services.youtube.linkHandler.YoutubeCommentsLinkHandlerFactory;
+import music.player.extract.downd.services.youtube.linkHandler.YoutubePlaylistLinkHandlerFactory;
+import music.player.extract.downd.services.youtube.linkHandler.YoutubeSearchQueryHandlerFactory;
+import music.player.extract.downd.services.youtube.linkHandler.YoutubeStreamLinkHandlerFactory;
+import music.player.extract.downd.services.youtube.linkHandler.YoutubeTrendingLinkHandlerFactory;
 import music.player.extract.downd.stream.StreamExtractor;
 import music.player.extract.downd.subscription.SubscriptionExtractor;
 import music.player.extract.downd.suggestion.SuggestionExtractor;
