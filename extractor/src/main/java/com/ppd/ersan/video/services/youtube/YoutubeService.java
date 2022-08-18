@@ -1,13 +1,5 @@
 package com.ppd.ersan.video.services.youtube;
 
-import com.ppd.ersan.video.services.youtube.extractors.YoutubeChannelExtractor;
-import com.ppd.ersan.video.services.youtube.linkHandler.YoutubeChannelLinkHandlerFactory;
-import com.ppd.ersan.video.services.youtube.linkHandler.YoutubeCommentsLinkHandlerFactory;
-import com.ppd.ersan.video.services.youtube.linkHandler.YoutubePlaylistLinkHandlerFactory;
-import com.ppd.ersan.video.services.youtube.linkHandler.YoutubeSearchQueryHandlerFactory;
-import com.ppd.ersan.video.services.youtube.linkHandler.YoutubeStreamLinkHandlerFactory;
-import com.ppd.ersan.video.services.youtube.linkHandler.YoutubeTrendingLinkHandlerFactory;
-
 import static com.ppd.ersan.video.StreamingService.ServiceInfo.MediaCapability.AUDIO;
 import static com.ppd.ersan.video.StreamingService.ServiceInfo.MediaCapability.COMMENTS;
 import static com.ppd.ersan.video.StreamingService.ServiceInfo.MediaCapability.LIVE;
@@ -30,6 +22,7 @@ import com.ppd.ersan.video.localization.ContentCountry;
 import com.ppd.ersan.video.localization.Localization;
 import com.ppd.ersan.video.playlist.PlaylistExtractor;
 import com.ppd.ersan.video.search.SearchExtractor;
+import com.ppd.ersan.video.services.youtube.extractors.YoutubeChannelExtractor;
 import com.ppd.ersan.video.services.youtube.extractors.YoutubeCommentsExtractor;
 import com.ppd.ersan.video.services.youtube.extractors.YoutubeFeedExtractor;
 import com.ppd.ersan.video.services.youtube.extractors.YoutubeMixPlaylistExtractor;
@@ -40,6 +33,12 @@ import com.ppd.ersan.video.services.youtube.extractors.YoutubeStreamExtractor;
 import com.ppd.ersan.video.services.youtube.extractors.YoutubeSubscriptionExtractor;
 import com.ppd.ersan.video.services.youtube.extractors.YoutubeSuggestionExtractor;
 import com.ppd.ersan.video.services.youtube.extractors.YoutubeTrendingExtractor;
+import com.ppd.ersan.video.services.youtube.linkHandler.YoutubeChannelLinkHandlerFactory;
+import com.ppd.ersan.video.services.youtube.linkHandler.YoutubeCommentsLinkHandlerFactory;
+import com.ppd.ersan.video.services.youtube.linkHandler.YoutubePlaylistLinkHandlerFactory;
+import com.ppd.ersan.video.services.youtube.linkHandler.YoutubeSearchQueryHandlerFactory;
+import com.ppd.ersan.video.services.youtube.linkHandler.YoutubeStreamLinkHandlerFactory;
+import com.ppd.ersan.video.services.youtube.linkHandler.YoutubeTrendingLinkHandlerFactory;
 import com.ppd.ersan.video.stream.StreamExtractor;
 import com.ppd.ersan.video.subscription.SubscriptionExtractor;
 import com.ppd.ersan.video.suggestion.SuggestionExtractor;

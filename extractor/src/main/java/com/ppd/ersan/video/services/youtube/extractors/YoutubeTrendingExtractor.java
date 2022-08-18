@@ -23,6 +23,7 @@ package com.ppd.ersan.video.services.youtube.extractors;
 import com.grack.nanojson.JsonArray;
 import com.grack.nanojson.JsonObject;
 import com.grack.nanojson.JsonWriter;
+import com.ppd.ersan.video.kiosk.KioskExtractor;
 import com.ppd.ersan.video.services.youtube.YoutubeParsingHelper;
 
 import com.ppd.ersan.video.Page;
@@ -30,7 +31,6 @@ import com.ppd.ersan.video.StreamingService;
 import com.ppd.ersan.video.downloader.Downloader;
 import com.ppd.ersan.video.exceptions.ExtractionException;
 import com.ppd.ersan.video.exceptions.ParsingException;
-import com.ppd.ersan.video.kiosk.KioskExtractor;
 import com.ppd.ersan.video.linkhandler.ListLinkHandler;
 import com.ppd.ersan.video.localization.TimeAgoParser;
 import com.ppd.ersan.video.stream.StreamInfoItem;
