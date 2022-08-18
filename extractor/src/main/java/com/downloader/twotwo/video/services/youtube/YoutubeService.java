@@ -1,13 +1,5 @@
 package com.downloader.twotwo.video.services.youtube;
 
-import com.downloader.twotwo.video.services.youtube.extractors.YoutubeChannelExtractor;
-import com.downloader.twotwo.video.services.youtube.linkHandler.YoutubeChannelLinkHandlerFactory;
-import com.downloader.twotwo.video.services.youtube.linkHandler.YoutubeCommentsLinkHandlerFactory;
-import com.downloader.twotwo.video.services.youtube.linkHandler.YoutubePlaylistLinkHandlerFactory;
-import com.downloader.twotwo.video.services.youtube.linkHandler.YoutubeSearchQueryHandlerFactory;
-import com.downloader.twotwo.video.services.youtube.linkHandler.YoutubeStreamLinkHandlerFactory;
-import com.downloader.twotwo.video.services.youtube.linkHandler.YoutubeTrendingLinkHandlerFactory;
-
 import static com.downloader.twotwo.video.StreamingService.ServiceInfo.MediaCapability.AUDIO;
 import static com.downloader.twotwo.video.StreamingService.ServiceInfo.MediaCapability.COMMENTS;
 import static com.downloader.twotwo.video.StreamingService.ServiceInfo.MediaCapability.LIVE;
@@ -30,6 +22,7 @@ import com.downloader.twotwo.video.localization.ContentCountry;
 import com.downloader.twotwo.video.localization.Localization;
 import com.downloader.twotwo.video.playlist.PlaylistExtractor;
 import com.downloader.twotwo.video.search.SearchExtractor;
+import com.downloader.twotwo.video.services.youtube.extractors.YoutubeChannelExtractor;
 import com.downloader.twotwo.video.services.youtube.extractors.YoutubeCommentsExtractor;
 import com.downloader.twotwo.video.services.youtube.extractors.YoutubeFeedExtractor;
 import com.downloader.twotwo.video.services.youtube.extractors.YoutubeMixPlaylistExtractor;
@@ -40,6 +33,12 @@ import com.downloader.twotwo.video.services.youtube.extractors.YoutubeStreamExtr
 import com.downloader.twotwo.video.services.youtube.extractors.YoutubeSubscriptionExtractor;
 import com.downloader.twotwo.video.services.youtube.extractors.YoutubeSuggestionExtractor;
 import com.downloader.twotwo.video.services.youtube.extractors.YoutubeTrendingExtractor;
+import com.downloader.twotwo.video.services.youtube.linkHandler.YoutubeChannelLinkHandlerFactory;
+import com.downloader.twotwo.video.services.youtube.linkHandler.YoutubeCommentsLinkHandlerFactory;
+import com.downloader.twotwo.video.services.youtube.linkHandler.YoutubePlaylistLinkHandlerFactory;
+import com.downloader.twotwo.video.services.youtube.linkHandler.YoutubeSearchQueryHandlerFactory;
+import com.downloader.twotwo.video.services.youtube.linkHandler.YoutubeStreamLinkHandlerFactory;
+import com.downloader.twotwo.video.services.youtube.linkHandler.YoutubeTrendingLinkHandlerFactory;
 import com.downloader.twotwo.video.stream.StreamExtractor;
 import com.downloader.twotwo.video.subscription.SubscriptionExtractor;
 import com.downloader.twotwo.video.suggestion.SuggestionExtractor;

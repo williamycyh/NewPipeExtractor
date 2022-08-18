@@ -20,6 +20,7 @@ package com.downloader.twotwo.video.services.youtube.extractors;
  * along with NewPipe.  If not, see <http://www.gnu.org/licenses/>.
  */
 
+import com.downloader.twotwo.video.kiosk.KioskExtractor;
 import com.grack.nanojson.JsonArray;
 import com.grack.nanojson.JsonObject;
 import com.grack.nanojson.JsonWriter;
@@ -30,7 +31,6 @@ import com.downloader.twotwo.video.StreamingService;
 import com.downloader.twotwo.video.downloader.Downloader;
 import com.downloader.twotwo.video.exceptions.ExtractionException;
 import com.downloader.twotwo.video.exceptions.ParsingException;
-import com.downloader.twotwo.video.kiosk.KioskExtractor;
 import com.downloader.twotwo.video.linkhandler.ListLinkHandler;
 import com.downloader.twotwo.video.localization.TimeAgoParser;
 import com.downloader.twotwo.video.stream.StreamInfoItem;

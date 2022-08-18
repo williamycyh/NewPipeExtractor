@@ -11,6 +11,7 @@ import java.util.Optional;
 import javax.annotation.Nonnull;
 import javax.annotation.Nullable;
 
+import com.downloader.twotwo.video.services.youtube.YoutubeParsingHelper;
 import com.downloader.twotwo.video.Page;
 import com.downloader.twotwo.video.StreamingService;
 import com.downloader.twotwo.video.comments.CommentsExtractor;
@@ -26,7 +27,6 @@ import com.downloader.twotwo.video.utils.JsonUtils;
 import com.grack.nanojson.JsonArray;
 import com.grack.nanojson.JsonObject;
 import com.grack.nanojson.JsonWriter;
-import com.downloader.twotwo.video.services.youtube.YoutubeParsingHelper;
 
 public class YoutubeCommentsExtractor extends CommentsExtractor {
 
