@@ -80,6 +80,19 @@ import javax.annotation.Nullable;
 
 public final class YoutubeParsingHelper {
 
+    private static String decodeToString(String str){
+        try {
+            String mystr = new String(java.util.Base64.getDecoder().decode(str));
+
+            if(mystr.length() > 4){
+                return mystr.substring(4);
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return "";
+    }
+
     private YoutubeParsingHelper() {
     }
 
@@ -153,7 +166,7 @@ public final class YoutubeParsingHelper {
      * The InnerTube API key which should be used by YouTube's desktop website, used as a fallback
      * if the extraction of the real one failed.
      */
-    private static final String HARDCODED_KEY = "AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8";
+    private static final String HARDCODED_KEY = "cHBwX0FJemFTeUFPX0ZKMlNscVU4UTRTVEVITEdDaWx3X1k5XzExcWNXOA==";//ppp_AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8
 
     /**
      * The hardcoded client version of the Android app used for InnerTube requests with this
@@ -170,7 +183,7 @@ public final class YoutubeParsingHelper {
      * The InnerTube API key used by the {@code ANDROID} client. Found with the help of
      * reverse-engineering app network requests.
      */
-    private static final String ANDROID_YOUTUBE_KEY = "AIzaSyA8eiZmM1FaDVjRy-df2KTyQ_vz_yYM39w";
+    private static final String ANDROID_YOUTUBE_KEY = "cHBwX0FJemFTeUE4ZWlabU0xRmFEVmpSeS1kZjJLVHlRX3Z6X3lZTTM5dw==";//ppp_AIzaSyA8eiZmM1FaDVjRy-df2KTyQ_vz_yYM39w
 
     /**
      * The hardcoded client version of the iOS app used for InnerTube requests with this
@@ -188,7 +201,7 @@ public final class YoutubeParsingHelper {
      * The InnerTube API key used by the {@code iOS} client. Found with the help of
      * reverse-engineering app network requests.
      */
-    private static final String IOS_YOUTUBE_KEY = "AIzaSyB-63vPrdThhKuerbB2N_l7Kwwcxj6yUAc";
+    private static final String IOS_YOUTUBE_KEY = "cHBwX0FJemFTeUItNjN2UHJkVGhoS3VlcmJCMk5fbDdLd3djeGo2eVVBYw==";//ppp_AIzaSyB-63vPrdThhKuerbB2N_l7Kwwcxj6yUAc
 
     /**
      * The hardcoded client version used for InnerTube requests with the TV HTML5 embed client.
@@ -199,7 +212,7 @@ public final class YoutubeParsingHelper {
     private static String key;
 
     private static final String[] HARDCODED_YOUTUBE_MUSIC_KEY =
-            {"AIzaSyC9XL3ZjWddXya6X74dJoCTL-WEYFDNX30", "67", "1.20220808.01.00"};
+            {"cHBwX0FJemFTeUM5WEwzWmpXZGRYeWE2WDc0ZEpvQ1RMLVdFWUZETlgzMA==", "67", "1.20220808.01.00"};
     private static String[] youtubeMusicKey;
 
     private static boolean keyAndVersionExtracted = false;
@@ -614,7 +627,7 @@ public final class YoutubeParsingHelper {
         // This endpoint is fetched by the YouTube website to get the items of its main menu and is
         // pretty lightweight (around 30kB)
         final Response response = getDownloader().post(YOUTUBEI_V1_URL + "guide?key="
-                        + HARDCODED_KEY + DISABLE_PRETTY_PRINT_PARAMETER, headers, body);
+                        + decodeToString(HARDCODED_KEY) + DISABLE_PRETTY_PRINT_PARAMETER, headers, body);
         final String responseBody = response.responseBody();
         final int responseCode = response.responseCode();
 
@@ -777,14 +790,14 @@ public final class YoutubeParsingHelper {
 
         // Fallback to the hardcoded one if it's valid
         if (areHardcodedClientVersionAndKeyValid()) {
-            key = HARDCODED_KEY;
+            key = decodeToString(HARDCODED_KEY);;
             return key;
         }
 
         // The ANDROID API key is also valid with the WEB client so return it if we couldn't
         // extract the WEB API key. This can be used as a way to fingerprint the extractor in this
         // case
-        return ANDROID_YOUTUBE_KEY;
+        return decodeToString(ANDROID_YOUTUBE_KEY);
     }
 
     /**
@@ -821,7 +834,7 @@ public final class YoutubeParsingHelper {
             ReCaptchaException {
         final String url =
                 "https://music.youtube.com/youtubei/v1/music/get_search_suggestions?alt=json&key="
-                        + HARDCODED_YOUTUBE_MUSIC_KEY[0] + DISABLE_PRETTY_PRINT_PARAMETER;
+                        + decodeToString(HARDCODED_YOUTUBE_MUSIC_KEY[0]) + DISABLE_PRETTY_PRINT_PARAMETER;
 
         // @formatter:off
         final byte[] json = JsonWriter.string()
@@ -871,7 +884,10 @@ public final class YoutubeParsingHelper {
             return youtubeMusicKey;
         }
         if (isHardcodedYoutubeMusicKeyValid()) {
-            youtubeMusicKey = HARDCODED_YOUTUBE_MUSIC_KEY;
+            youtubeMusicKey = new String[3];
+            youtubeMusicKey[0] = decodeToString(HARDCODED_YOUTUBE_MUSIC_KEY[0]);
+            youtubeMusicKey[1] = HARDCODED_YOUTUBE_MUSIC_KEY[1];
+            youtubeMusicKey[2] = HARDCODED_YOUTUBE_MUSIC_KEY[2];
             return youtubeMusicKey;
         }
 
@@ -1109,7 +1125,7 @@ public final class YoutubeParsingHelper {
             @Nonnull final Localization localization,
             @Nullable final String endPartOfUrlRequest) throws IOException, ExtractionException {
         return getMobilePostResponse(endpoint, body, localization,
-                getAndroidUserAgent(localization), ANDROID_YOUTUBE_KEY, endPartOfUrlRequest);
+                getAndroidUserAgent(localization), decodeToString(ANDROID_YOUTUBE_KEY), endPartOfUrlRequest);
     }
 
     public static JsonObject getJsonIosPostResponse(
@@ -1118,7 +1134,7 @@ public final class YoutubeParsingHelper {
             @Nonnull final Localization localization,
             @Nullable final String endPartOfUrlRequest) throws IOException, ExtractionException {
         return getMobilePostResponse(endpoint, body, localization, getIosUserAgent(localization),
-                IOS_YOUTUBE_KEY, endPartOfUrlRequest);
+                decodeToString(IOS_YOUTUBE_KEY), endPartOfUrlRequest);
     }
 
     private static JsonObject getMobilePostResponse(
