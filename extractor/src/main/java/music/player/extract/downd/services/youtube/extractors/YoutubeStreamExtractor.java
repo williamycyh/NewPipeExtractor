@@ -552,21 +552,21 @@ public class YoutubeStreamExtractor extends StreamExtractor {
     public List<AudioStream> getAudioStreams() throws ExtractionException {
         assertPageFetched();
         final List<AudioStream> audioStreams = new ArrayList<>();
-
-        try {
             for (final Map.Entry<String, ItagItem> entry : getItags(ADAPTIVE_FORMATS,
                     ItagItem.ItagType.AUDIO).entrySet()) {
-                final ItagItem itag = entry.getValue();
-                final String url = tryDecryption(entry.getKey(), getId());
+                try {
+                    final ItagItem itag = entry.getValue();
+                    final String url = tryDecryption(entry.getKey(), getId());
 
-                final AudioStream audioStream = new AudioStream(url, itag);
-                if (!Stream.containSimilarStream(audioStream, audioStreams)) {
-                    audioStreams.add(audioStream);
+                    final AudioStream audioStream = new AudioStream(url, itag);
+                    if (!Stream.containSimilarStream(audioStream, audioStreams)) {
+                        audioStreams.add(audioStream);
+                    }
+                } catch (final Exception e) {
+//                    throw new ParsingException("Could not get audio streams", e);
+                    e.printStackTrace();
                 }
             }
-        } catch (final Exception e) {
-            throw new ParsingException("Could not get audio streams", e);
-        }
 
         return audioStreams;
     }
@@ -576,9 +576,9 @@ public class YoutubeStreamExtractor extends StreamExtractor {
         assertPageFetched();
         final List<VideoStream> videoStreams = new ArrayList<>();
 
-        try {
-            for (final Map.Entry<String, ItagItem> entry : getItags(FORMATS,
-                    ItagItem.ItagType.VIDEO).entrySet()) {
+        for (final Map.Entry<String, ItagItem> entry : getItags(FORMATS,
+                ItagItem.ItagType.VIDEO).entrySet()) {
+            try {
                 final ItagItem itag = entry.getValue();
                 final String url = tryDecryption(entry.getKey(), getId());
 
@@ -586,11 +586,11 @@ public class YoutubeStreamExtractor extends StreamExtractor {
                 if (!Stream.containSimilarStream(videoStream, videoStreams)) {
                     videoStreams.add(videoStream);
                 }
+            } catch (final Exception e) {
+//                    throw new ParsingException("Could not get video streams", e);
+                e.printStackTrace();
             }
-        } catch (final Exception e) {
-            throw new ParsingException("Could not get video streams", e);
         }
-
         return videoStreams;
     }
 
@@ -598,10 +598,9 @@ public class YoutubeStreamExtractor extends StreamExtractor {
     public List<VideoStream> getVideoOnlyStreams() throws ExtractionException {
         assertPageFetched();
         final List<VideoStream> videoOnlyStreams = new ArrayList<>();
-
-        try {
-            for (final Map.Entry<String, ItagItem> entry : getItags(ADAPTIVE_FORMATS,
-                    ItagItem.ItagType.VIDEO_ONLY).entrySet()) {
+        for (final Map.Entry<String, ItagItem> entry : getItags(ADAPTIVE_FORMATS,
+                ItagItem.ItagType.VIDEO_ONLY).entrySet()) {
+            try {
                 final ItagItem itag = entry.getValue();
                 final String url = tryDecryption(entry.getKey(), getId());
 
@@ -609,11 +608,11 @@ public class YoutubeStreamExtractor extends StreamExtractor {
                 if (!Stream.containSimilarStream(videoStream, videoOnlyStreams)) {
                     videoOnlyStreams.add(videoStream);
                 }
+            } catch (final Exception e) {
+//                    throw new ParsingException("Could not get video only streams", e);
+                e.printStackTrace();
             }
-        } catch (final Exception e) {
-            throw new ParsingException("Could not get video only streams", e);
         }
-
         return videoOnlyStreams;
     }
 
