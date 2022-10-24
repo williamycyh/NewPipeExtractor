@@ -3,13 +3,13 @@ package org.schabi.newpipe.extractor.services.soundcloud.search;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import org.schabi.newpipe.downloader.DownloaderTestImpl;
-import music.player.extract.downd.InfoItem;
-import music.player.extract.downd.ListExtractor.InfoItemsPage;
-import music.player.extract.downd.NewPipe;
-import music.player.extract.downd.StreamingService;
-import music.player.extract.downd.channel.ChannelInfoItem;
-import music.player.extract.downd.exceptions.ExtractionException;
-import music.player.extract.downd.search.SearchExtractor;
+import com.github.video.downloader.InfoItem;
+import com.github.video.downloader.ListExtractor.InfoItemsPage;
+import com.github.video.downloader.NewPipe;
+import com.github.video.downloader.StreamingService;
+import com.github.video.downloader.channel.ChannelInfoItem;
+import com.github.video.downloader.exceptions.ExtractionException;
+import com.github.video.downloader.search.SearchExtractor;
 import org.schabi.newpipe.extractor.services.DefaultSearchExtractorTest;
 
 import javax.annotation.Nullable;
@@ -20,9 +20,9 @@ import java.util.List;
 
 import static java.util.Collections.singletonList;
 import static org.junit.jupiter.api.Assertions.assertTrue;
-import static music.player.extract.downd.ServiceList.SoundCloud;
+import static com.github.video.downloader.ServiceList.SoundCloud;
 import static org.schabi.newpipe.extractor.services.DefaultTests.assertNoDuplicatedItems;
-import static music.player.extract.downd.utils.Utils.UTF_8;
+import static com.github.video.downloader.utils.Utils.UTF_8;
 
 public class SoundcloudSearchExtractorTest {
 

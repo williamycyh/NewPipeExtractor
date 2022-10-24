@@ -4,9 +4,9 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mozilla.javascript.EvaluatorException;
 import org.schabi.newpipe.downloader.DownloaderTestImpl;
-import music.player.extract.downd.NewPipe;
-import music.player.extract.downd.exceptions.ParsingException;
-import music.player.extract.downd.services.youtube.YoutubeThrottlingDecrypter;
+import com.github.video.downloader.NewPipe;
+import com.github.video.downloader.exceptions.ParsingException;
+import com.github.video.downloader.services.youtube.YoutubeThrottlingDecrypter;
 
 import java.io.IOException;
 

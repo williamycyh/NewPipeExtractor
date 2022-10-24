@@ -1,16 +1,16 @@
 package org.schabi.newpipe.extractor.services.youtube.stream;
 
-import static music.player.extract.downd.ServiceList.YouTube;
+import static com.github.video.downloader.ServiceList.YouTube;
 
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import org.schabi.newpipe.downloader.DownloaderFactory;
-import music.player.extract.downd.NewPipe;
-import music.player.extract.downd.StreamingService;
+import com.github.video.downloader.NewPipe;
+import com.github.video.downloader.StreamingService;
 import org.schabi.newpipe.extractor.services.DefaultStreamExtractorTest;
 import org.schabi.newpipe.extractor.services.youtube.YoutubeTestsUtils;
-import music.player.extract.downd.stream.StreamExtractor;
-import music.player.extract.downd.stream.StreamType;
+import com.github.video.downloader.stream.StreamExtractor;
+import com.github.video.downloader.stream.StreamType;
 
 import java.util.Arrays;
 import java.util.List;
@@ -70,7 +70,7 @@ public class YoutubeStreamExtractorLivestreamTest extends DefaultStreamExtractor
         return Arrays.asList("beats to relax", "chilled cow", "chilled cow radio", "chilledcow", "chilledcow radio",
                 "chilledcow station", "chillhop", "hip hop", "hiphop", "lo fi", "lo fi hip hop", "lo fi hip hop radio",
                 "lo fi hiphop", "lo fi radio", "lo-fi", "lo-fi hip hop", "lo-fi hip hop radio", "lo-fi hiphop",
-                "lo-fi radio", "lofi", "lofi hip hop", "lofi hip hop radio", "lofi hiphop", "lofi radio", "music",
+                "lo-fi radio", "lofi", "lofi hip hop", "lofi hip hop radio", "lofi hiphop", "lofi radio", "com",
                 "lofi radio chilledcow", "music to study", "playlist", "radio", "relaxing music", "study music",
                 "lofi hip hop radio - beats to relax\\/study to");
     }

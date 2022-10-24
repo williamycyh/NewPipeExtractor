@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static music.player.extract.downd.utils.StringUtils.matchToClosingParenthesis;
+import static com.github.video.downloader.utils.StringUtils.matchToClosingParenthesis;
 
 public class StringUtilsTest {
 

@@ -23,18 +23,18 @@ package org.schabi.newpipe.extractor.services.youtube;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import org.schabi.newpipe.downloader.DownloaderTestImpl;
-import music.player.extract.downd.NewPipe;
-import music.player.extract.downd.StreamingService;
-import music.player.extract.downd.kis.KioskList;
-import music.player.extract.downd.playlist.PlaylistExtractor;
-import music.player.extract.downd.services.youtube.YoutubeService;
-import music.player.extract.downd.services.youtube.extractors.YoutubeMixPlaylistExtractor;
-import music.player.extract.downd.services.youtube.extractors.YoutubePlaylistExtractor;
+import com.github.video.downloader.NewPipe;
+import com.github.video.downloader.StreamingService;
+import com.github.video.downloader.kis.KioskList;
+import com.github.video.downloader.playlist.PlaylistExtractor;
+import com.github.video.downloader.services.youtube.YoutubeService;
+import com.github.video.downloader.services.youtube.extractors.YoutubeMixPlaylistExtractor;
+import com.github.video.downloader.services.youtube.extractors.YoutubePlaylistExtractor;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
-import static music.player.extract.downd.ServiceList.YouTube;
+import static com.github.video.downloader.ServiceList.YouTube;
 
 /**
  * Test for {@link YoutubeService}

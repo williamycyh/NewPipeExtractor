@@ -5,13 +5,13 @@ package org.schabi.newpipe.extractor.services.bandcamp;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import org.schabi.newpipe.downloader.DownloaderTestImpl;
-import music.player.extract.downd.NewPipe;
-import music.player.extract.downd.Page;
-import music.player.extract.downd.exceptions.ExtractionException;
-import music.player.extract.downd.playlist.PlaylistInfoItem;
+import com.github.video.downloader.NewPipe;
+import com.github.video.downloader.Page;
+import com.github.video.downloader.exceptions.ExtractionException;
+import com.github.video.downloader.playlist.PlaylistInfoItem;
 import org.schabi.newpipe.extractor.services.BaseListExtractorTest;
 import org.schabi.newpipe.extractor.services.DefaultTests;
-import music.player.extract.downd.services.bandcamp.extractors.BandcampFeaturedExtractor;
+import com.github.video.downloader.services.bandcamp.extractors.BandcampFeaturedExtractor;
 
 import java.io.IOException;
 import java.util.List;
@@ -19,7 +19,7 @@ import java.util.List;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
-import static music.player.extract.downd.ServiceList.Bandcamp;
+import static com.github.video.downloader.ServiceList.Bandcamp;
 
 /**
  * Tests for {@link BandcampFeaturedExtractor}

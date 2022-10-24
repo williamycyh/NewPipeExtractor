@@ -1,6 +1,6 @@
 package org.schabi.newpipe.downloader;
 
-import music.player.extract.downd.downloader.Downloader;
+import com.github.video.downloader.downloader.Downloader;
 
 import java.io.IOException;
 

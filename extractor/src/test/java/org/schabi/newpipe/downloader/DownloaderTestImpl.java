@@ -1,9 +1,9 @@
 package org.schabi.newpipe.downloader;
 
-import music.player.extract.downd.downloader.Downloader;
-import music.player.extract.downd.downloader.Request;
-import music.player.extract.downd.downloader.Response;
-import music.player.extract.downd.exceptions.ReCaptchaException;
+import com.github.video.downloader.downloader.Downloader;
+import com.github.video.downloader.downloader.Request;
+import com.github.video.downloader.downloader.Response;
+import com.github.video.downloader.exceptions.ReCaptchaException;
 
 import java.io.IOException;
 import java.util.List;

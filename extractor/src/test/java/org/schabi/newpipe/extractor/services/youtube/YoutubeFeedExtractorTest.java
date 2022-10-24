@@ -3,18 +3,18 @@ package org.schabi.newpipe.extractor.services.youtube;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 import static org.junit.jupiter.api.Assertions.assertTrue;
-import static music.player.extract.downd.ServiceList.YouTube;
+import static com.github.video.downloader.ServiceList.YouTube;
 import static org.schabi.newpipe.extractor.services.DefaultTests.assertNoMoreItems;
 import static org.schabi.newpipe.extractor.services.DefaultTests.defaultTestRelatedItems;
 
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import org.schabi.newpipe.downloader.DownloaderFactory;
-import music.player.extract.downd.NewPipe;
-import music.player.extract.downd.exceptions.ContentNotAvailableException;
-import music.player.extract.downd.exceptions.ParsingException;
+import com.github.video.downloader.NewPipe;
+import com.github.video.downloader.exceptions.ContentNotAvailableException;
+import com.github.video.downloader.exceptions.ParsingException;
 import org.schabi.newpipe.extractor.services.BaseListExtractorTest;
-import music.player.extract.downd.services.youtube.extractors.YoutubeFeedExtractor;
+import com.github.video.downloader.services.youtube.extractors.YoutubeFeedExtractor;
 
 import java.io.IOException;
 

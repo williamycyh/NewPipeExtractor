@@ -3,14 +3,14 @@ package org.schabi.newpipe.extractor.services.peertube;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import org.schabi.newpipe.downloader.DownloaderTestImpl;
-import music.player.extract.downd.ListExtractor.InfoItemsPage;
-import music.player.extract.downd.NewPipe;
-import music.player.extract.downd.Page;
-import music.player.extract.downd.comments.CommentsInfo;
-import music.player.extract.downd.comments.CommentsInfoItem;
-import music.player.extract.downd.exceptions.ExtractionException;
-import music.player.extract.downd.services.peertube.extractors.PeertubeCommentsExtractor;
-import music.player.extract.downd.utils.Utils;
+import com.github.video.downloader.ListExtractor.InfoItemsPage;
+import com.github.video.downloader.NewPipe;
+import com.github.video.downloader.Page;
+import com.github.video.downloader.comments.CommentsInfo;
+import com.github.video.downloader.comments.CommentsInfoItem;
+import com.github.video.downloader.exceptions.ExtractionException;
+import com.github.video.downloader.services.peertube.extractors.PeertubeCommentsExtractor;
+import com.github.video.downloader.utils.Utils;
 
 import java.io.IOException;
 import java.util.List;
@@ -18,7 +18,7 @@ import java.util.List;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
-import static music.player.extract.downd.ServiceList.PeerTube;
+import static com.github.video.downloader.ServiceList.PeerTube;
 
 public class PeertubeCommentsExtractorTest {
     public static class Default {

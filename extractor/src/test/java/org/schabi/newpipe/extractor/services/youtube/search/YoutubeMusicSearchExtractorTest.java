@@ -1,18 +1,18 @@
 package org.schabi.newpipe.extractor.services.youtube.search;
 
-import static music.player.extract.downd.ServiceList.YouTube;
+import static com.github.video.downloader.ServiceList.YouTube;
 import static java.util.Collections.singletonList;
 
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Disabled;
 import org.schabi.newpipe.downloader.DownloaderTestImpl;
 
-import music.player.extract.downd.InfoItem;
-import music.player.extract.downd.NewPipe;
-import music.player.extract.downd.StreamingService;
-import music.player.extract.downd.search.SearchExtractor;
+import com.github.video.downloader.InfoItem;
+import com.github.video.downloader.NewPipe;
+import com.github.video.downloader.StreamingService;
+import com.github.video.downloader.search.SearchExtractor;
 import org.schabi.newpipe.extractor.services.DefaultSearchExtractorTest;
-import music.player.extract.downd.services.youtube.linkHandler.YoutubeSearchQueryHandlerFactory;
+import com.github.video.downloader.services.youtube.linkHandler.YoutubeSearchQueryHandlerFactory;
 
 import java.net.URLEncoder;
 

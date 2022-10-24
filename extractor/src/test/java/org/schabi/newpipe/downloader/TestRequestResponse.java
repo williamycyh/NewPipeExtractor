@@ -1,7 +1,7 @@
 package org.schabi.newpipe.downloader;
 
-import music.player.extract.downd.downloader.Request;
-import music.player.extract.downd.downloader.Response;
+import com.github.video.downloader.downloader.Request;
+import com.github.video.downloader.downloader.Response;
 
 final class TestRequestResponse {
     private final Request request;

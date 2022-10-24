@@ -3,9 +3,9 @@ package org.schabi.newpipe.extractor.services.soundcloud;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import org.schabi.newpipe.downloader.DownloaderTestImpl;
-import music.player.extract.downd.NewPipe;
-import music.player.extract.downd.exceptions.ParsingException;
-import music.player.extract.downd.services.soundcloud.linkHandler.SoundcloudStreamLinkHandlerFactory;
+import com.github.video.downloader.NewPipe;
+import com.github.video.downloader.exceptions.ParsingException;
+import com.github.video.downloader.services.soundcloud.linkHandler.SoundcloudStreamLinkHandlerFactory;
 
 import java.util.ArrayList;
 import java.util.List;

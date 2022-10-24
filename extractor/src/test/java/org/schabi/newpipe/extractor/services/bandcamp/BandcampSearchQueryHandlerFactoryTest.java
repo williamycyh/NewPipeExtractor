@@ -5,12 +5,12 @@ package org.schabi.newpipe.extractor.services.bandcamp;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import org.schabi.newpipe.downloader.DownloaderTestImpl;
-import music.player.extract.downd.NewPipe;
-import music.player.extract.downd.exceptions.ParsingException;
-import music.player.extract.downd.services.bandcamp.linkHandler.BandcampSearchQueryHandlerFactory;
+import com.github.video.downloader.NewPipe;
+import com.github.video.downloader.exceptions.ParsingException;
+import com.github.video.downloader.services.bandcamp.linkHandler.BandcampSearchQueryHandlerFactory;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static music.player.extract.downd.ServiceList.Bandcamp;
+import static com.github.video.downloader.ServiceList.Bandcamp;
 
 public class BandcampSearchQueryHandlerFactoryTest {
 

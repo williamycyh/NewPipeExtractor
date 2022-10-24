@@ -23,15 +23,15 @@ package org.schabi.newpipe.extractor.services.youtube;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import org.schabi.newpipe.downloader.DownloaderTestImpl;
-import music.player.extract.downd.NewPipe;
-import music.player.extract.downd.exceptions.ParsingException;
-import music.player.extract.downd.linkhandler.LinkHandlerFactory;
-import music.player.extract.downd.services.youtube.linkHandler.YoutubeTrendingLinkHandlerFactory;
+import com.github.video.downloader.NewPipe;
+import com.github.video.downloader.exceptions.ParsingException;
+import com.github.video.downloader.linkhandler.LinkHandlerFactory;
+import com.github.video.downloader.services.youtube.linkHandler.YoutubeTrendingLinkHandlerFactory;
 
 import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
-import static music.player.extract.downd.ServiceList.YouTube;
+import static com.github.video.downloader.ServiceList.YouTube;
 
 /**
  * Test for {@link YoutubeTrendingLinkHandlerFactory}

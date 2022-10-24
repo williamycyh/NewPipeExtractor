@@ -1,14 +1,14 @@
 package org.schabi.newpipe.extractor.services;
 
-import music.player.extract.downd.InfoItem;
-import music.player.extract.downd.ListExtractor;
-import music.player.extract.downd.Page;
-import music.player.extract.downd.StreamingService;
-import music.player.extract.downd.channel.ChannelInfoItem;
-import music.player.extract.downd.exceptions.ParsingException;
-import music.player.extract.downd.localization.DateWrapper;
-import music.player.extract.downd.playlist.PlaylistInfoItem;
-import music.player.extract.downd.stream.StreamInfoItem;
+import com.github.video.downloader.InfoItem;
+import com.github.video.downloader.ListExtractor;
+import com.github.video.downloader.Page;
+import com.github.video.downloader.StreamingService;
+import com.github.video.downloader.channel.ChannelInfoItem;
+import com.github.video.downloader.exceptions.ParsingException;
+import com.github.video.downloader.localization.DateWrapper;
+import com.github.video.downloader.playlist.PlaylistInfoItem;
+import com.github.video.downloader.stream.StreamInfoItem;
 
 import java.util.HashSet;
 import java.util.List;
@@ -16,8 +16,8 @@ import java.util.Set;
 
 import static org.junit.jupiter.api.Assertions.*;
 import static org.schabi.newpipe.extractor.ExtractorAsserts.*;
-import static music.player.extract.downd.StreamingService.LinkType;
-import static music.player.extract.downd.utils.Utils.isNullOrEmpty;
+import static com.github.video.downloader.StreamingService.LinkType;
+import static com.github.video.downloader.utils.Utils.isNullOrEmpty;
 
 public final class DefaultTests {
     public static void defaultTestListOfItems(StreamingService expectedService, List<? extends InfoItem> itemsList, List<Throwable> errors) throws ParsingException {

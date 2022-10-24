@@ -5,15 +5,15 @@ package org.schabi.newpipe.extractor.services.bandcamp;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import org.schabi.newpipe.downloader.DownloaderTestImpl;
-import music.player.extract.downd.NewPipe;
-import music.player.extract.downd.channel.ChannelExtractor;
-import music.player.extract.downd.exceptions.ExtractionException;
+import com.github.video.downloader.NewPipe;
+import com.github.video.downloader.channel.ChannelExtractor;
+import com.github.video.downloader.exceptions.ExtractionException;
 import org.schabi.newpipe.extractor.services.BaseChannelExtractorTest;
 
 import java.io.IOException;
 
 import static org.junit.jupiter.api.Assertions.*;
-import static music.player.extract.downd.ServiceList.Bandcamp;
+import static com.github.video.downloader.ServiceList.Bandcamp;
 
 public class BandcampChannelExtractorTest implements BaseChannelExtractorTest {
 
