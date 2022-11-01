@@ -17,7 +17,7 @@ public class PatternsManager {
 
         try {
             final Class<?> targetClass = Class.forName(
-                    "tevd.nbapp.vide.downl.gitvideo.tags" + targetLocalizationClassName);
+                    "tevd.nbapp.vide.downl.gitvideo.tags." + targetLocalizationClassName);
 
             return (PatternsHolder) targetClass.getDeclaredMethod("getInstance").invoke(null);
         } catch (ClassNotFoundException ignored) {
