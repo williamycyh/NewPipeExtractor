@@ -6,20 +6,20 @@ import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.Timeout;
 import org.schabi.newpipe.downloader.DownloaderTestImpl;
-import com.github.video.downloader.NewPipe;
-import com.github.video.downloader.exceptions.ContentNotAvailableException;
-import com.github.video.downloader.exceptions.ExtractionException;
-import com.github.video.downloader.exceptions.ParsingException;
-import com.github.video.downloader.playlist.PlaylistExtractor;
+import tevd.nbapp.vide.downl.NewPipe;
+import tevd.nbapp.vide.downl.exceptions.ContentNotAvailableException;
+import tevd.nbapp.vide.downl.exceptions.ExtractionException;
+import tevd.nbapp.vide.downl.exceptions.ParsingException;
+import tevd.nbapp.vide.downl.playlist.PlaylistExtractor;
 import org.schabi.newpipe.extractor.services.BasePlaylistExtractorTest;
-import com.github.video.downloader.services.bandcamp.extractors.BandcampPlaylistExtractor;
-import com.github.video.downloader.stream.StreamInfoItem;
+import tevd.nbapp.vide.downl.services.bandcamp.extractors.BandcampPlaylistExtractor;
+import tevd.nbapp.vide.downl.stream.StreamInfoItem;
 
 import java.io.IOException;
 import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
-import static com.github.video.downloader.ServiceList.Bandcamp;
+import static tevd.nbapp.vide.downl.ServiceList.Bandcamp;
 
 /**
  * Tests for {@link BandcampPlaylistExtractor}

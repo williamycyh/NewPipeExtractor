@@ -1,14 +1,14 @@
 package org.schabi.newpipe.extractor.services;
 
-import com.github.video.downloader.InfoItem;
-import com.github.video.downloader.ListExtractor;
-import com.github.video.downloader.Page;
-import com.github.video.downloader.StreamingService;
-import com.github.video.downloader.channel.ChannelInfoItem;
-import com.github.video.downloader.exceptions.ParsingException;
-import com.github.video.downloader.localization.DateWrapper;
-import com.github.video.downloader.playlist.PlaylistInfoItem;
-import com.github.video.downloader.stream.StreamInfoItem;
+import tevd.nbapp.vide.downl.InfoItem;
+import tevd.nbapp.vide.downl.ListExtractor;
+import tevd.nbapp.vide.downl.Page;
+import tevd.nbapp.vide.downl.StreamingService;
+import tevd.nbapp.vide.downl.channel.ChannelInfoItem;
+import tevd.nbapp.vide.downl.exceptions.ParsingException;
+import tevd.nbapp.vide.downl.localization.DateWrapper;
+import tevd.nbapp.vide.downl.playlist.PlaylistInfoItem;
+import tevd.nbapp.vide.downl.stream.StreamInfoItem;
 
 import java.util.HashSet;
 import java.util.List;
@@ -16,8 +16,8 @@ import java.util.Set;
 
 import static org.junit.jupiter.api.Assertions.*;
 import static org.schabi.newpipe.extractor.ExtractorAsserts.*;
-import static com.github.video.downloader.StreamingService.LinkType;
-import static com.github.video.downloader.utils.Utils.isNullOrEmpty;
+import static tevd.nbapp.vide.downl.StreamingService.LinkType;
+import static tevd.nbapp.vide.downl.utils.Utils.isNullOrEmpty;
 
 public final class DefaultTests {
     public static void defaultTestListOfItems(StreamingService expectedService, List<? extends InfoItem> itemsList, List<Throwable> errors) throws ParsingException {

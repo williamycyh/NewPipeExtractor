@@ -1,6 +1,6 @@
 package org.schabi.newpipe.downloader;
 
-import com.github.video.downloader.downloader.Downloader;
+import tevd.nbapp.vide.downl.downloader.Downloader;
 
 import java.io.IOException;
 

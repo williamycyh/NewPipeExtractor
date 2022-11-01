@@ -5,15 +5,15 @@ import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import org.schabi.newpipe.downloader.DownloaderTestImpl;
 import org.schabi.newpipe.extractor.ExtractorAsserts;
-import com.github.video.downloader.MediaFormat;
-import com.github.video.downloader.NewPipe;
-import com.github.video.downloader.StreamingService;
-import com.github.video.downloader.exceptions.GeographicRestrictionException;
-import com.github.video.downloader.exceptions.SoundCloudGoPlusContentException;
+import tevd.nbapp.vide.downl.MediaFormat;
+import tevd.nbapp.vide.downl.NewPipe;
+import tevd.nbapp.vide.downl.StreamingService;
+import tevd.nbapp.vide.downl.exceptions.GeographicRestrictionException;
+import tevd.nbapp.vide.downl.exceptions.SoundCloudGoPlusContentException;
 import org.schabi.newpipe.extractor.services.DefaultStreamExtractorTest;
-import com.github.video.downloader.stream.AudioStream;
-import com.github.video.downloader.stream.StreamExtractor;
-import com.github.video.downloader.stream.StreamType;
+import tevd.nbapp.vide.downl.stream.AudioStream;
+import tevd.nbapp.vide.downl.stream.StreamExtractor;
+import tevd.nbapp.vide.downl.stream.StreamType;
 
 import java.util.Arrays;
 import java.util.Collections;
@@ -22,7 +22,7 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static com.github.video.downloader.ServiceList.SoundCloud;
+import static tevd.nbapp.vide.downl.ServiceList.SoundCloud;
 
 public class SoundcloudStreamExtractorTest {
     private static final String SOUNDCLOUD = "https://soundcloud.com/";

@@ -1,7 +1,7 @@
 package org.schabi.newpipe.downloader;
 
-import com.github.video.downloader.downloader.Request;
-import com.github.video.downloader.downloader.Response;
+import tevd.nbapp.vide.downl.downloader.Request;
+import tevd.nbapp.vide.downl.downloader.Response;
 
 final class TestRequestResponse {
     private final Request request;

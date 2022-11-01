@@ -3,9 +3,9 @@ package org.schabi.newpipe.extractor.services.youtube;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import org.schabi.newpipe.downloader.DownloaderTestImpl;
-import com.github.video.downloader.NewPipe;
-import com.github.video.downloader.exceptions.ParsingException;
-import com.github.video.downloader.services.youtube.linkHandler.YoutubeCommentsLinkHandlerFactory;
+import tevd.nbapp.vide.downl.NewPipe;
+import tevd.nbapp.vide.downl.exceptions.ParsingException;
+import tevd.nbapp.vide.downl.services.youtube.linkHandler.YoutubeCommentsLinkHandlerFactory;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertFalse;

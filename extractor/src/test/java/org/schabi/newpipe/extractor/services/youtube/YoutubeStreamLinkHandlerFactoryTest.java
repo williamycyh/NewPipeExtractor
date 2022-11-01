@@ -3,10 +3,10 @@ package org.schabi.newpipe.extractor.services.youtube;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import org.schabi.newpipe.downloader.DownloaderTestImpl;
-import com.github.video.downloader.NewPipe;
-import com.github.video.downloader.exceptions.FoundAdException;
-import com.github.video.downloader.exceptions.ParsingException;
-import com.github.video.downloader.services.youtube.linkHandler.YoutubeStreamLinkHandlerFactory;
+import tevd.nbapp.vide.downl.NewPipe;
+import tevd.nbapp.vide.downl.exceptions.FoundAdException;
+import tevd.nbapp.vide.downl.exceptions.ParsingException;
+import tevd.nbapp.vide.downl.services.youtube.linkHandler.YoutubeStreamLinkHandlerFactory;
 
 import java.util.ArrayList;
 import java.util.List;

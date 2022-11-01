@@ -2,10 +2,10 @@ package org.schabi.newpipe.downloader;
 
 import com.google.gson.GsonBuilder;
 
-import com.github.video.downloader.downloader.Downloader;
-import com.github.video.downloader.downloader.Request;
-import com.github.video.downloader.downloader.Response;
-import com.github.video.downloader.exceptions.ReCaptchaException;
+import tevd.nbapp.vide.downl.downloader.Downloader;
+import tevd.nbapp.vide.downl.downloader.Request;
+import tevd.nbapp.vide.downl.downloader.Response;
+import tevd.nbapp.vide.downl.exceptions.ReCaptchaException;
 
 import java.io.File;
 import java.io.FileOutputStream;

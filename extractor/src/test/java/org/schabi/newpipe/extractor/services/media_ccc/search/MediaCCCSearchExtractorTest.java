@@ -2,18 +2,18 @@ package org.schabi.newpipe.extractor.services.media_ccc.search;
 
 import org.junit.jupiter.api.BeforeAll;
 import org.schabi.newpipe.downloader.DownloaderTestImpl;
-import com.github.video.downloader.InfoItem;
-import com.github.video.downloader.NewPipe;
-import com.github.video.downloader.StreamingService;
-import com.github.video.downloader.search.SearchExtractor;
+import tevd.nbapp.vide.downl.InfoItem;
+import tevd.nbapp.vide.downl.NewPipe;
+import tevd.nbapp.vide.downl.StreamingService;
+import tevd.nbapp.vide.downl.search.SearchExtractor;
 import org.schabi.newpipe.extractor.services.DefaultSearchExtractorTest;
 
 import javax.annotation.Nullable;
 
 import static java.util.Collections.singletonList;
-import static com.github.video.downloader.ServiceList.MediaCCC;
-import static com.github.video.downloader.services.media_ccc.linkHandler.MediaCCCSearchQueryHandlerFactory.CONFERENCES;
-import static com.github.video.downloader.services.media_ccc.linkHandler.MediaCCCSearchQueryHandlerFactory.EVENTS;
+import static tevd.nbapp.vide.downl.ServiceList.MediaCCC;
+import static tevd.nbapp.vide.downl.services.media_ccc.linkHandler.MediaCCCSearchQueryHandlerFactory.CONFERENCES;
+import static tevd.nbapp.vide.downl.services.media_ccc.linkHandler.MediaCCCSearchQueryHandlerFactory.EVENTS;
 
 public class MediaCCCSearchExtractorTest {
     public static class All extends DefaultSearchExtractorTest {

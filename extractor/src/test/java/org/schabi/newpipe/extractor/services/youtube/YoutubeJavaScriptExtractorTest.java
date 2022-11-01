@@ -6,9 +6,9 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.schabi.newpipe.downloader.DownloaderTestImpl;
 import org.schabi.newpipe.extractor.ExtractorAsserts;
-import com.github.video.downloader.NewPipe;
-import com.github.video.downloader.exceptions.ParsingException;
-import com.github.video.downloader.services.youtube.YoutubeJavaScriptExtractor;
+import tevd.nbapp.vide.downl.NewPipe;
+import tevd.nbapp.vide.downl.exceptions.ParsingException;
+import tevd.nbapp.vide.downl.services.youtube.YoutubeJavaScriptExtractor;
 
 import java.io.IOException;
 

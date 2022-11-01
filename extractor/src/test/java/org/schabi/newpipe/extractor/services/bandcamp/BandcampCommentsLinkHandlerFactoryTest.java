@@ -5,9 +5,9 @@ package org.schabi.newpipe.extractor.services.bandcamp;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import org.schabi.newpipe.downloader.DownloaderTestImpl;
-import com.github.video.downloader.NewPipe;
-import com.github.video.downloader.exceptions.ParsingException;
-import com.github.video.downloader.services.bandcamp.linkHandler.BandcampCommentsLinkHandlerFactory;
+import tevd.nbapp.vide.downl.NewPipe;
+import tevd.nbapp.vide.downl.exceptions.ParsingException;
+import tevd.nbapp.vide.downl.services.bandcamp.linkHandler.BandcampCommentsLinkHandlerFactory;
 
 import static org.junit.jupiter.api.Assertions.*;
 

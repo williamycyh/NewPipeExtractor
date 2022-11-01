@@ -6,24 +6,24 @@ import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import org.schabi.newpipe.downloader.DownloaderTestImpl;
 
-import com.github.video.downloader.InfoItem;
-import com.github.video.downloader.ListExtractor;
-import com.github.video.downloader.NewPipe;
-import com.github.video.downloader.Page;
-import com.github.video.downloader.StreamingService;
-import com.github.video.downloader.exceptions.ExtractionException;
-import com.github.video.downloader.playlist.PlaylistInfoItem;
-import com.github.video.downloader.search.SearchExtractor;
+import tevd.nbapp.vide.downl.InfoItem;
+import tevd.nbapp.vide.downl.ListExtractor;
+import tevd.nbapp.vide.downl.NewPipe;
+import tevd.nbapp.vide.downl.Page;
+import tevd.nbapp.vide.downl.StreamingService;
+import tevd.nbapp.vide.downl.exceptions.ExtractionException;
+import tevd.nbapp.vide.downl.playlist.PlaylistInfoItem;
+import tevd.nbapp.vide.downl.search.SearchExtractor;
 import org.schabi.newpipe.extractor.services.DefaultSearchExtractorTest;
-import com.github.video.downloader.services.bandcamp.extractors.BandcampSearchExtractor;
-import com.github.video.downloader.stream.StreamInfoItem;
+import tevd.nbapp.vide.downl.services.bandcamp.extractors.BandcampSearchExtractor;
+import tevd.nbapp.vide.downl.stream.StreamInfoItem;
 
 import javax.annotation.Nullable;
 import java.io.IOException;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
-import static com.github.video.downloader.ServiceList.Bandcamp;
+import static tevd.nbapp.vide.downl.ServiceList.Bandcamp;
 
 /**
  * Test for {@link BandcampSearchExtractor}

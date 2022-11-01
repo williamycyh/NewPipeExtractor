@@ -3,16 +3,16 @@ package org.schabi.newpipe.extractor.services.media_ccc;
 import static org.junit.jupiter.api.Assertions.assertAll;
 import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.schabi.newpipe.extractor.ExtractorAsserts.assertGreater;
-import static com.github.video.downloader.ServiceList.MediaCCC;
-import static com.github.video.downloader.utils.Utils.isNullOrEmpty;
+import static tevd.nbapp.vide.downl.ServiceList.MediaCCC;
+import static tevd.nbapp.vide.downl.utils.Utils.isNullOrEmpty;
 
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.function.Executable;
 import org.schabi.newpipe.downloader.DownloaderTestImpl;
-import com.github.video.downloader.NewPipe;
-import com.github.video.downloader.kis.KioskExtractor;
-import com.github.video.downloader.stream.StreamInfoItem;
+import tevd.nbapp.vide.downl.NewPipe;
+import tevd.nbapp.vide.downl.kis.KioskExtractor;
+import tevd.nbapp.vide.downl.stream.StreamInfoItem;
 
 import java.util.List;
 import java.util.stream.Stream;

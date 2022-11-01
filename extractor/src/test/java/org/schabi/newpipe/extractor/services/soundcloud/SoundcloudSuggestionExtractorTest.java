@@ -3,14 +3,14 @@ package org.schabi.newpipe.extractor.services.soundcloud;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import org.schabi.newpipe.downloader.DownloaderTestImpl;
-import com.github.video.downloader.NewPipe;
-import com.github.video.downloader.exceptions.ExtractionException;
-import com.github.video.downloader.suggestion.SuggestionExtractor;
+import tevd.nbapp.vide.downl.NewPipe;
+import tevd.nbapp.vide.downl.exceptions.ExtractionException;
+import tevd.nbapp.vide.downl.suggestion.SuggestionExtractor;
 
 import java.io.IOException;
 
 import static org.junit.jupiter.api.Assertions.assertFalse;
-import static com.github.video.downloader.ServiceList.SoundCloud;
+import static tevd.nbapp.vide.downl.ServiceList.SoundCloud;
 
 /**
  * Test for {@link SuggestionExtractor}

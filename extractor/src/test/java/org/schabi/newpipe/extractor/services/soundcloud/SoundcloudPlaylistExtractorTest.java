@@ -5,18 +5,18 @@ import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import org.schabi.newpipe.downloader.DownloaderTestImpl;
 import org.schabi.newpipe.extractor.ExtractorAsserts;
-import com.github.video.downloader.ListExtractor;
-import com.github.video.downloader.NewPipe;
-import com.github.video.downloader.exceptions.ParsingException;
-import com.github.video.downloader.playlist.PlaylistExtractor;
+import tevd.nbapp.vide.downl.ListExtractor;
+import tevd.nbapp.vide.downl.NewPipe;
+import tevd.nbapp.vide.downl.exceptions.ParsingException;
+import tevd.nbapp.vide.downl.playlist.PlaylistExtractor;
 import org.schabi.newpipe.extractor.services.BasePlaylistExtractorTest;
-import com.github.video.downloader.services.soundcloud.extractors.SoundcloudPlaylistExtractor;
-import com.github.video.downloader.stream.StreamInfoItem;
+import tevd.nbapp.vide.downl.services.soundcloud.extractors.SoundcloudPlaylistExtractor;
+import tevd.nbapp.vide.downl.stream.StreamInfoItem;
 
 import static org.junit.jupiter.api.Assertions.*;
 import static org.schabi.newpipe.extractor.ExtractorAsserts.assertEmpty;
 import static org.schabi.newpipe.extractor.ExtractorAsserts.assertIsSecureUrl;
-import static com.github.video.downloader.ServiceList.SoundCloud;
+import static tevd.nbapp.vide.downl.ServiceList.SoundCloud;
 import static org.schabi.newpipe.extractor.services.DefaultTests.*;
 
 /**

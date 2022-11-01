@@ -1,8 +1,8 @@
 package org.schabi.newpipe.extractor.services;
 
 import org.junit.jupiter.api.Test;
-import com.github.video.downloader.InfoItem;
-import com.github.video.downloader.ListExtractor;
+import tevd.nbapp.vide.downl.InfoItem;
+import tevd.nbapp.vide.downl.ListExtractor;
 
 import javax.annotation.Nullable;
 

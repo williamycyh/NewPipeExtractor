@@ -3,13 +3,13 @@ package org.schabi.newpipe.extractor.services.soundcloud.search;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import org.schabi.newpipe.downloader.DownloaderTestImpl;
-import com.github.video.downloader.InfoItem;
-import com.github.video.downloader.ListExtractor.InfoItemsPage;
-import com.github.video.downloader.NewPipe;
-import com.github.video.downloader.StreamingService;
-import com.github.video.downloader.channel.ChannelInfoItem;
-import com.github.video.downloader.exceptions.ExtractionException;
-import com.github.video.downloader.search.SearchExtractor;
+import tevd.nbapp.vide.downl.InfoItem;
+import tevd.nbapp.vide.downl.ListExtractor.InfoItemsPage;
+import tevd.nbapp.vide.downl.NewPipe;
+import tevd.nbapp.vide.downl.StreamingService;
+import tevd.nbapp.vide.downl.channel.ChannelInfoItem;
+import tevd.nbapp.vide.downl.exceptions.ExtractionException;
+import tevd.nbapp.vide.downl.search.SearchExtractor;
 import org.schabi.newpipe.extractor.services.DefaultSearchExtractorTest;
 
 import javax.annotation.Nullable;
@@ -20,9 +20,9 @@ import java.util.List;
 
 import static java.util.Collections.singletonList;
 import static org.junit.jupiter.api.Assertions.assertTrue;
-import static com.github.video.downloader.ServiceList.SoundCloud;
+import static tevd.nbapp.vide.downl.ServiceList.SoundCloud;
 import static org.schabi.newpipe.extractor.services.DefaultTests.assertNoDuplicatedItems;
-import static com.github.video.downloader.utils.Utils.UTF_8;
+import static tevd.nbapp.vide.downl.utils.Utils.UTF_8;
 
 public class SoundcloudSearchExtractorTest {
 

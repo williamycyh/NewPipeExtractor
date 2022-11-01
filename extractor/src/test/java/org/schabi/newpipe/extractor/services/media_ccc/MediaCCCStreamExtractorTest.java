@@ -3,12 +3,12 @@ package org.schabi.newpipe.extractor.services.media_ccc;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import org.schabi.newpipe.downloader.DownloaderTestImpl;
-import com.github.video.downloader.NewPipe;
-import com.github.video.downloader.StreamingService;
+import tevd.nbapp.vide.downl.NewPipe;
+import tevd.nbapp.vide.downl.StreamingService;
 import org.schabi.newpipe.extractor.services.DefaultStreamExtractorTest;
-import com.github.video.downloader.services.media_ccc.extractors.MediaCCCStreamExtractor;
-import com.github.video.downloader.stream.StreamExtractor;
-import com.github.video.downloader.stream.StreamType;
+import tevd.nbapp.vide.downl.services.media_ccc.extractors.MediaCCCStreamExtractor;
+import tevd.nbapp.vide.downl.stream.StreamExtractor;
+import tevd.nbapp.vide.downl.stream.StreamType;
 
 import javax.annotation.Nullable;
 
@@ -17,7 +17,7 @@ import java.util.List;
 import java.util.Locale;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static com.github.video.downloader.ServiceList.MediaCCC;
+import static tevd.nbapp.vide.downl.ServiceList.MediaCCC;
 
 /**
  * Test {@link MediaCCCStreamExtractor}

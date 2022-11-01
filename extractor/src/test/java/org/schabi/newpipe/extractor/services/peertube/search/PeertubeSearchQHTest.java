@@ -2,12 +2,12 @@ package org.schabi.newpipe.extractor.services.peertube.search;
 
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
-import com.github.video.downloader.services.peertube.PeertubeInstance;
-import com.github.video.downloader.services.peertube.linkHandler.PeertubeSearchQueryHandlerFactory;
+import tevd.nbapp.vide.downl.services.peertube.PeertubeInstance;
+import tevd.nbapp.vide.downl.services.peertube.linkHandler.PeertubeSearchQueryHandlerFactory;
 
 import static java.util.Collections.singletonList;
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static com.github.video.downloader.ServiceList.PeerTube;
+import static tevd.nbapp.vide.downl.ServiceList.PeerTube;
 
 public class PeertubeSearchQHTest {
 

@@ -1,7 +1,7 @@
 package org.schabi.newpipe.extractor.services.youtube;
 
-import com.github.video.downloader.services.youtube.YoutubeParsingHelper;
-import com.github.video.downloader.services.youtube.extractors.YoutubeStreamExtractor;
+import tevd.nbapp.vide.downl.services.youtube.YoutubeParsingHelper;
+import tevd.nbapp.vide.downl.services.youtube.extractors.YoutubeStreamExtractor;
 
 import java.util.Random;
 

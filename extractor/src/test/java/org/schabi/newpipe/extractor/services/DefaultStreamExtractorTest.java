@@ -2,17 +2,17 @@ package org.schabi.newpipe.extractor.services;
 
 import org.junit.jupiter.api.Test;
 import org.schabi.newpipe.extractor.ExtractorAsserts;
-import com.github.video.downloader.InfoItemsCollector;
-import com.github.video.downloader.MediaFormat;
-import com.github.video.downloader.MetaInfo;
-import com.github.video.downloader.localization.DateWrapper;
-import com.github.video.downloader.stream.AudioStream;
-import com.github.video.downloader.stream.Description;
-import com.github.video.downloader.stream.Frameset;
-import com.github.video.downloader.stream.StreamExtractor;
-import com.github.video.downloader.stream.StreamType;
-import com.github.video.downloader.stream.SubtitlesStream;
-import com.github.video.downloader.stream.VideoStream;
+import tevd.nbapp.vide.downl.InfoItemsCollector;
+import tevd.nbapp.vide.downl.MediaFormat;
+import tevd.nbapp.vide.downl.MetaInfo;
+import tevd.nbapp.vide.downl.localization.DateWrapper;
+import tevd.nbapp.vide.downl.stream.AudioStream;
+import tevd.nbapp.vide.downl.stream.Description;
+import tevd.nbapp.vide.downl.stream.Frameset;
+import tevd.nbapp.vide.downl.stream.StreamExtractor;
+import tevd.nbapp.vide.downl.stream.StreamType;
+import tevd.nbapp.vide.downl.stream.SubtitlesStream;
+import tevd.nbapp.vide.downl.stream.VideoStream;
 
 import javax.annotation.Nullable;
 import java.time.LocalDateTime;
@@ -34,7 +34,7 @@ import static org.schabi.newpipe.extractor.ExtractorAsserts.assertEqualsOrderInd
 import static org.schabi.newpipe.extractor.ExtractorAsserts.assertIsSecureUrl;
 import static org.schabi.newpipe.extractor.ExtractorAsserts.assertIsValidUrl;
 import static org.schabi.newpipe.extractor.services.DefaultTests.defaultTestListOfItems;
-import static com.github.video.downloader.stream.StreamExtractor.UNKNOWN_SUBSCRIBER_COUNT;
+import static tevd.nbapp.vide.downl.stream.StreamExtractor.UNKNOWN_SUBSCRIBER_COUNT;
 
 /**
  * Test for {@link StreamExtractor}

@@ -4,21 +4,21 @@ import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import org.schabi.newpipe.downloader.DownloaderTestImpl;
-import com.github.video.downloader.InfoItem;
-import com.github.video.downloader.ListExtractor.InfoItemsPage;
-import com.github.video.downloader.NewPipe;
-import com.github.video.downloader.StreamingService;
-import com.github.video.downloader.search.SearchExtractor;
+import tevd.nbapp.vide.downl.InfoItem;
+import tevd.nbapp.vide.downl.ListExtractor.InfoItemsPage;
+import tevd.nbapp.vide.downl.NewPipe;
+import tevd.nbapp.vide.downl.StreamingService;
+import tevd.nbapp.vide.downl.search.SearchExtractor;
 import org.schabi.newpipe.extractor.services.DefaultSearchExtractorTest;
-import com.github.video.downloader.services.peertube.PeertubeInstance;
-import com.github.video.downloader.services.peertube.linkHandler.PeertubeSearchQueryHandlerFactory;
+import tevd.nbapp.vide.downl.services.peertube.PeertubeInstance;
+import tevd.nbapp.vide.downl.services.peertube.linkHandler.PeertubeSearchQueryHandlerFactory;
 
 import javax.annotation.Nullable;
 
 import static java.util.Collections.singletonList;
-import static com.github.video.downloader.ServiceList.PeerTube;
+import static tevd.nbapp.vide.downl.ServiceList.PeerTube;
 import static org.schabi.newpipe.extractor.services.DefaultTests.assertNoDuplicatedItems;
-import static com.github.video.downloader.services.peertube.linkHandler.PeertubeSearchQueryHandlerFactory.VIDEOS;
+import static tevd.nbapp.vide.downl.services.peertube.linkHandler.PeertubeSearchQueryHandlerFactory.VIDEOS;
 
 public class PeertubeSearchExtractorTest {
 

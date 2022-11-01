@@ -1,8 +1,8 @@
 package org.schabi.newpipe.extractor.utils;
 
 import org.junit.jupiter.api.Test;
-import com.github.video.downloader.exceptions.ParsingException;
-import com.github.video.downloader.utils.Utils;
+import tevd.nbapp.vide.downl.exceptions.ParsingException;
+import tevd.nbapp.vide.downl.utils.Utils;
 
 import java.util.Arrays;
 
