@@ -2,18 +2,18 @@ package org.schabi.newpipe.extractor.services.media_ccc.search;
 
 import org.junit.jupiter.api.BeforeAll;
 import org.schabi.newpipe.downloader.DownloaderTestImpl;
-import tevd.nbapp.vide.downl.InfoItem;
-import tevd.nbapp.vide.downl.NewPipe;
-import tevd.nbapp.vide.downl.StreamingService;
-import tevd.nbapp.vide.downl.search.SearchExtractor;
+import tndown.tndir.simplevd.vdwload.InfoItem;
+import tndown.tndir.simplevd.vdwload.NewPipe;
+import tndown.tndir.simplevd.vdwload.StreamingService;
+import tndown.tndir.simplevd.vdwload.search.SearchExtractor;
 import org.schabi.newpipe.extractor.services.DefaultSearchExtractorTest;
 
 import javax.annotation.Nullable;
 
 import static java.util.Collections.singletonList;
-import static tevd.nbapp.vide.downl.ServiceList.MediaCCC;
-import static tevd.nbapp.vide.downl.services.media_ccc.linkHandler.MediaCCCSearchQueryHandlerFactory.CONFERENCES;
-import static tevd.nbapp.vide.downl.services.media_ccc.linkHandler.MediaCCCSearchQueryHandlerFactory.EVENTS;
+import static tndown.tndir.simplevd.vdwload.ServiceList.MediaCCC;
+import static tndown.tndir.simplevd.vdwload.services.media_ccc.linkHandler.MediaCCCSearchQueryHandlerFactory.CONFERENCES;
+import static tndown.tndir.simplevd.vdwload.services.media_ccc.linkHandler.MediaCCCSearchQueryHandlerFactory.EVENTS;
 
 public class MediaCCCSearchExtractorTest {
     public static class All extends DefaultSearchExtractorTest {

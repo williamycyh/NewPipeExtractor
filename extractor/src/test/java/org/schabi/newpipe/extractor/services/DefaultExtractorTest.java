@@ -1,9 +1,9 @@
 package org.schabi.newpipe.extractor.services;
 
 import org.junit.jupiter.api.Test;
-import tevd.nbapp.vide.downl.Extractor;
+import tndown.tndir.simplevd.vdwload.Extractor;
 import org.schabi.newpipe.extractor.ExtractorAsserts;
-import tevd.nbapp.vide.downl.StreamingService;
+import tndown.tndir.simplevd.vdwload.StreamingService;
 
 import static org.junit.jupiter.api.Assertions.*;
 import static org.schabi.newpipe.extractor.ExtractorAsserts.assertIsSecureUrl;

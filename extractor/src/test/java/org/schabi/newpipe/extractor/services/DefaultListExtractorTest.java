@@ -1,8 +1,8 @@
 package org.schabi.newpipe.extractor.services;
 
 import org.junit.jupiter.api.Test;
-import tevd.nbapp.vide.downl.InfoItem;
-import tevd.nbapp.vide.downl.ListExtractor;
+import tndown.tndir.simplevd.vdwload.InfoItem;
+import tndown.tndir.simplevd.vdwload.ListExtractor;
 
 import javax.annotation.Nullable;
 

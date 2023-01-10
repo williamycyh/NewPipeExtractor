@@ -1,8 +1,8 @@
 package org.schabi.newpipe.extractor.services;
 
 import org.junit.jupiter.api.Test;
-import tevd.nbapp.vide.downl.MetaInfo;
-import tevd.nbapp.vide.downl.search.SearchExtractor;
+import tndown.tndir.simplevd.vdwload.MetaInfo;
+import tndown.tndir.simplevd.vdwload.search.SearchExtractor;
 
 
 import javax.annotation.Nullable;
@@ -16,7 +16,7 @@ import java.util.stream.Collectors;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 import static org.schabi.newpipe.extractor.ExtractorAsserts.assertEmpty;
-import static tevd.nbapp.vide.downl.utils.Utils.isNullOrEmpty;
+import static tndown.tndir.simplevd.vdwload.Utils.isNullOrEmpty;
 
 public abstract class DefaultSearchExtractorTest extends DefaultListExtractorTest<SearchExtractor>
         implements BaseSearchExtractorTest {

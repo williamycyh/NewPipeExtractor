@@ -3,20 +3,20 @@ package org.schabi.newpipe.extractor.services.bandcamp;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import org.schabi.newpipe.downloader.DownloaderTestImpl;
-import tevd.nbapp.vide.downl.ListExtractor;
-import tevd.nbapp.vide.downl.NewPipe;
-import tevd.nbapp.vide.downl.comments.CommentsExtractor;
-import tevd.nbapp.vide.downl.comments.CommentsInfoItem;
-import tevd.nbapp.vide.downl.exceptions.ExtractionException;
+import tndown.tndir.simplevd.vdwload.ListExtractor;
+import tndown.tndir.simplevd.vdwload.NewPipe;
+import tndown.tndir.simplevd.vdwload.comments.CommentsExtractor;
+import tndown.tndir.simplevd.vdwload.comments.CommentsInfoItem;
+import tndown.tndir.simplevd.vdwload.exceptions.ExtractionException;
 import org.schabi.newpipe.extractor.services.DefaultTests;
-import tevd.nbapp.vide.downl.utils.Utils;
+import tndown.tndir.simplevd.vdwload.Utils;
 
 import java.io.IOException;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
-import static tevd.nbapp.vide.downl.ServiceList.Bandcamp;
+import static tndown.tndir.simplevd.vdwload.ServiceList.Bandcamp;
 
 public class BandcampCommentsExtractorTest {
 

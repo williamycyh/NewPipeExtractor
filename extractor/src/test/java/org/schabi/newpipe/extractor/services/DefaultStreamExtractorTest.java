@@ -2,17 +2,17 @@ package org.schabi.newpipe.extractor.services;
 
 import org.junit.jupiter.api.Test;
 import org.schabi.newpipe.extractor.ExtractorAsserts;
-import tevd.nbapp.vide.downl.InfoItemsCollector;
-import tevd.nbapp.vide.downl.MediaFormat;
-import tevd.nbapp.vide.downl.MetaInfo;
-import tevd.nbapp.vide.downl.localization.DateWrapper;
-import tevd.nbapp.vide.downl.stream.AudioStream;
-import tevd.nbapp.vide.downl.stream.Description;
-import tevd.nbapp.vide.downl.stream.Frameset;
-import tevd.nbapp.vide.downl.stream.StreamExtractor;
-import tevd.nbapp.vide.downl.stream.StreamType;
-import tevd.nbapp.vide.downl.stream.SubtitlesStream;
-import tevd.nbapp.vide.downl.stream.VideoStream;
+import tndown.tndir.simplevd.vdwload.InfoItemsCollector;
+import tndown.tndir.simplevd.vdwload.MediaFormat;
+import tndown.tndir.simplevd.vdwload.MetaInfo;
+import tndown.tndir.simplevd.vdwload.localization.DateWrapper;
+import tndown.tndir.simplevd.vdwload.stream.AudioStream;
+import tndown.tndir.simplevd.vdwload.stream.Description;
+import tndown.tndir.simplevd.vdwload.stream.Frameset;
+import tndown.tndir.simplevd.vdwload.stream.StreamExtractor;
+import tndown.tndir.simplevd.vdwload.stream.StreamType;
+import tndown.tndir.simplevd.vdwload.stream.SubtitlesStream;
+import tndown.tndir.simplevd.vdwload.stream.VideoStream;
 
 import javax.annotation.Nullable;
 import java.time.LocalDateTime;
@@ -34,7 +34,7 @@ import static org.schabi.newpipe.extractor.ExtractorAsserts.assertEqualsOrderInd
 import static org.schabi.newpipe.extractor.ExtractorAsserts.assertIsSecureUrl;
 import static org.schabi.newpipe.extractor.ExtractorAsserts.assertIsValidUrl;
 import static org.schabi.newpipe.extractor.services.DefaultTests.defaultTestListOfItems;
-import static tevd.nbapp.vide.downl.stream.StreamExtractor.UNKNOWN_SUBSCRIBER_COUNT;
+import static tndown.tndir.simplevd.vdwload.stream.StreamExtractor.UNKNOWN_SUBSCRIBER_COUNT;
 
 /**
  * Test for {@link StreamExtractor}

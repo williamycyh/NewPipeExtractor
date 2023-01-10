@@ -1,16 +1,16 @@
 package org.schabi.newpipe.extractor.services.youtube.stream;
 
-import static tevd.nbapp.vide.downl.ServiceList.YouTube;
+import static tndown.tndir.simplevd.vdwload.ServiceList.YouTube;
 
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import org.schabi.newpipe.downloader.DownloaderFactory;
-import tevd.nbapp.vide.downl.NewPipe;
-import tevd.nbapp.vide.downl.StreamingService;
+import tndown.tndir.simplevd.vdwload.NewPipe;
+import tndown.tndir.simplevd.vdwload.StreamingService;
 import org.schabi.newpipe.extractor.services.DefaultStreamExtractorTest;
 import org.schabi.newpipe.extractor.services.youtube.YoutubeTestsUtils;
-import tevd.nbapp.vide.downl.stream.StreamExtractor;
-import tevd.nbapp.vide.downl.stream.StreamType;
+import tndown.tndir.simplevd.vdwload.stream.StreamExtractor;
+import tndown.tndir.simplevd.vdwload.stream.StreamType;
 
 import java.util.Arrays;
 import java.util.List;

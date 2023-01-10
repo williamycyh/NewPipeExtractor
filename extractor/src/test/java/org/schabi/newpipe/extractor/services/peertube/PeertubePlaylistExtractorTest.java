@@ -5,12 +5,12 @@ import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import org.schabi.newpipe.downloader.DownloaderTestImpl;
 import org.schabi.newpipe.extractor.ExtractorAsserts;
-import tevd.nbapp.vide.downl.NewPipe;
-import tevd.nbapp.vide.downl.exceptions.ParsingException;
-import tevd.nbapp.vide.downl.services.peertube.extractors.PeertubePlaylistExtractor;
+import tndown.tndir.simplevd.vdwload.NewPipe;
+import tndown.tndir.simplevd.vdwload.exceptions.ParsingException;
+import tndown.tndir.simplevd.vdwload.services.peertube.extractors.PeertubePlaylistExtractor;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static tevd.nbapp.vide.downl.ServiceList.PeerTube;
+import static tndown.tndir.simplevd.vdwload.ServiceList.PeerTube;
 
 public class PeertubePlaylistExtractorTest {
 

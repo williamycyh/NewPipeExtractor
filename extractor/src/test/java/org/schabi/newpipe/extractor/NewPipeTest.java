@@ -1,17 +1,17 @@
 package org.schabi.newpipe.extractor;
 
-import tevd.nbapp.vide.downl.NewPipe;
-import tevd.nbapp.vide.downl.ServiceList;
-import tevd.nbapp.vide.downl.StreamingService;
+import tndown.tndir.simplevd.vdwload.NewPipe;
+import tndown.tndir.simplevd.vdwload.ServiceList;
+import tndown.tndir.simplevd.vdwload.StreamingService;
 
 import org.junit.jupiter.api.Test;
 
 import java.util.HashSet;
 
 import static org.junit.jupiter.api.Assertions.*;
-import static tevd.nbapp.vide.downl.NewPipe.getServiceByUrl;
-import static tevd.nbapp.vide.downl.ServiceList.SoundCloud;
-import static tevd.nbapp.vide.downl.ServiceList.YouTube;
+import static tndown.tndir.simplevd.vdwload.NewPipe.getServiceByUrl;
+import static tndown.tndir.simplevd.vdwload.ServiceList.SoundCloud;
+import static tndown.tndir.simplevd.vdwload.ServiceList.YouTube;
 
 public class NewPipeTest {
     @Test

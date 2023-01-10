@@ -3,15 +3,15 @@ package org.schabi.newpipe.extractor.services.peertube;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import org.schabi.newpipe.downloader.DownloaderTestImpl;
-import tevd.nbapp.vide.downl.NewPipe;
-import tevd.nbapp.vide.downl.exceptions.ParsingException;
+import tndown.tndir.simplevd.vdwload.NewPipe;
+import tndown.tndir.simplevd.vdwload.exceptions.ParsingException;
 import org.schabi.newpipe.extractor.services.BaseListExtractorTest;
 
-import tevd.nbapp.vide.downl.services.peertube.PeertubeInstance;
-import tevd.nbapp.vide.downl.services.peertube.extractors.PeertubeTrendingExtractor;
+import tndown.tndir.simplevd.vdwload.services.peertube.PeertubeInstance;
+import tndown.tndir.simplevd.vdwload.services.peertube.extractors.PeertubeTrendingExtractor;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static tevd.nbapp.vide.downl.ServiceList.PeerTube;
+import static tndown.tndir.simplevd.vdwload.ServiceList.PeerTube;
 import static org.schabi.newpipe.extractor.services.DefaultTests.*;
 
 public class PeertubeTrendingExtractorTest {

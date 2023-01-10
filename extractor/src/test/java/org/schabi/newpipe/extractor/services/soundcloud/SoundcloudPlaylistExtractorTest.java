@@ -5,18 +5,18 @@ import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import org.schabi.newpipe.downloader.DownloaderTestImpl;
 import org.schabi.newpipe.extractor.ExtractorAsserts;
-import tevd.nbapp.vide.downl.ListExtractor;
-import tevd.nbapp.vide.downl.NewPipe;
-import tevd.nbapp.vide.downl.exceptions.ParsingException;
-import tevd.nbapp.vide.downl.playlist.PlaylistExtractor;
+import tndown.tndir.simplevd.vdwload.ListExtractor;
+import tndown.tndir.simplevd.vdwload.NewPipe;
+import tndown.tndir.simplevd.vdwload.exceptions.ParsingException;
+import tndown.tndir.simplevd.vdwload.playlist.PlaylistExtractor;
 import org.schabi.newpipe.extractor.services.BasePlaylistExtractorTest;
-import tevd.nbapp.vide.downl.services.soundcloud.extractors.SoundcloudPlaylistExtractor;
-import tevd.nbapp.vide.downl.stream.StreamInfoItem;
+import tndown.tndir.simplevd.vdwload.services.soundcloud.extractors.SoundcloudPlaylistExtractor;
+import tndown.tndir.simplevd.vdwload.stream.StreamInfoItem;
 
 import static org.junit.jupiter.api.Assertions.*;
 import static org.schabi.newpipe.extractor.ExtractorAsserts.assertEmpty;
 import static org.schabi.newpipe.extractor.ExtractorAsserts.assertIsSecureUrl;
-import static tevd.nbapp.vide.downl.ServiceList.SoundCloud;
+import static tndown.tndir.simplevd.vdwload.ServiceList.SoundCloud;
 import static org.schabi.newpipe.extractor.services.DefaultTests.*;
 
 /**

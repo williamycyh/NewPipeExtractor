@@ -3,14 +3,14 @@ package org.schabi.newpipe.extractor.services.peertube;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import org.schabi.newpipe.downloader.DownloaderTestImpl;
-import tevd.nbapp.vide.downl.NewPipe;
-import tevd.nbapp.vide.downl.exceptions.ParsingException;
-import tevd.nbapp.vide.downl.services.peertube.PeertubeInstance;
-import tevd.nbapp.vide.downl.services.peertube.linkHandler.PeertubeChannelLinkHandlerFactory;
+import tndown.tndir.simplevd.vdwload.NewPipe;
+import tndown.tndir.simplevd.vdwload.exceptions.ParsingException;
+import tndown.tndir.simplevd.vdwload.services.peertube.PeertubeInstance;
+import tndown.tndir.simplevd.vdwload.services.peertube.linkHandler.PeertubeChannelLinkHandlerFactory;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
-import static tevd.nbapp.vide.downl.ServiceList.PeerTube;
+import static tndown.tndir.simplevd.vdwload.ServiceList.PeerTube;
 
 /**
  * Test for {@link PeertubeChannelLinkHandlerFactory}

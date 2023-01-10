@@ -6,20 +6,20 @@ import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.Timeout;
 import org.schabi.newpipe.downloader.DownloaderTestImpl;
-import tevd.nbapp.vide.downl.NewPipe;
-import tevd.nbapp.vide.downl.exceptions.ContentNotAvailableException;
-import tevd.nbapp.vide.downl.exceptions.ExtractionException;
-import tevd.nbapp.vide.downl.exceptions.ParsingException;
-import tevd.nbapp.vide.downl.playlist.PlaylistExtractor;
+import tndown.tndir.simplevd.vdwload.NewPipe;
+import tndown.tndir.simplevd.vdwload.exceptions.ContentNotAvailableException;
+import tndown.tndir.simplevd.vdwload.exceptions.ExtractionException;
+import tndown.tndir.simplevd.vdwload.exceptions.ParsingException;
+import tndown.tndir.simplevd.vdwload.playlist.PlaylistExtractor;
 import org.schabi.newpipe.extractor.services.BasePlaylistExtractorTest;
-import tevd.nbapp.vide.downl.services.bandcamp.extractors.BandcampPlaylistExtractor;
-import tevd.nbapp.vide.downl.stream.StreamInfoItem;
+import tndown.tndir.simplevd.vdwload.services.bandcamp.extractors.BandcampPlaylistExtractor;
+import tndown.tndir.simplevd.vdwload.stream.StreamInfoItem;
 
 import java.io.IOException;
 import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
-import static tevd.nbapp.vide.downl.ServiceList.Bandcamp;
+import static tndown.tndir.simplevd.vdwload.ServiceList.Bandcamp;
 
 /**
  * Tests for {@link BandcampPlaylistExtractor}

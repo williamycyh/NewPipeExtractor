@@ -6,24 +6,24 @@ import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import org.schabi.newpipe.downloader.DownloaderTestImpl;
 
-import tevd.nbapp.vide.downl.InfoItem;
-import tevd.nbapp.vide.downl.ListExtractor;
-import tevd.nbapp.vide.downl.NewPipe;
-import tevd.nbapp.vide.downl.Page;
-import tevd.nbapp.vide.downl.StreamingService;
-import tevd.nbapp.vide.downl.exceptions.ExtractionException;
-import tevd.nbapp.vide.downl.playlist.PlaylistInfoItem;
-import tevd.nbapp.vide.downl.search.SearchExtractor;
+import tndown.tndir.simplevd.vdwload.InfoItem;
+import tndown.tndir.simplevd.vdwload.ListExtractor;
+import tndown.tndir.simplevd.vdwload.NewPipe;
+import tndown.tndir.simplevd.vdwload.Page;
+import tndown.tndir.simplevd.vdwload.StreamingService;
+import tndown.tndir.simplevd.vdwload.exceptions.ExtractionException;
+import tndown.tndir.simplevd.vdwload.playlist.PlaylistInfoItem;
+import tndown.tndir.simplevd.vdwload.search.SearchExtractor;
 import org.schabi.newpipe.extractor.services.DefaultSearchExtractorTest;
-import tevd.nbapp.vide.downl.services.bandcamp.extractors.BandcampSearchExtractor;
-import tevd.nbapp.vide.downl.stream.StreamInfoItem;
+import tndown.tndir.simplevd.vdwload.services.bandcamp.extractors.BandcampSearchExtractor;
+import tndown.tndir.simplevd.vdwload.stream.StreamInfoItem;
 
 import javax.annotation.Nullable;
 import java.io.IOException;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
-import static tevd.nbapp.vide.downl.ServiceList.Bandcamp;
+import static tndown.tndir.simplevd.vdwload.ServiceList.Bandcamp;
 
 /**
  * Test for {@link BandcampSearchExtractor}

@@ -2,9 +2,9 @@ package org.schabi.newpipe.downloader;
 
 import com.google.gson.GsonBuilder;
 
-import tevd.nbapp.vide.downl.downloader.Downloader;
-import tevd.nbapp.vide.downl.downloader.Request;
-import tevd.nbapp.vide.downl.downloader.Response;
+import tndown.tndir.simplevd.vdwload.downloader.Downloader;
+import tndown.tndir.simplevd.vdwload.downloader.Request;
+import tndown.tndir.simplevd.vdwload.downloader.Response;
 
 import java.io.File;
 import java.io.FileInputStream;

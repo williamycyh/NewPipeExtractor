@@ -5,15 +5,15 @@ package org.schabi.newpipe.extractor.services.bandcamp;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import org.schabi.newpipe.downloader.DownloaderTestImpl;
-import tevd.nbapp.vide.downl.NewPipe;
-import tevd.nbapp.vide.downl.StreamingService;
-import tevd.nbapp.vide.downl.exceptions.ExtractionException;
-import tevd.nbapp.vide.downl.exceptions.ParsingException;
+import tndown.tndir.simplevd.vdwload.NewPipe;
+import tndown.tndir.simplevd.vdwload.StreamingService;
+import tndown.tndir.simplevd.vdwload.exceptions.ExtractionException;
+import tndown.tndir.simplevd.vdwload.exceptions.ParsingException;
 import org.schabi.newpipe.extractor.services.DefaultStreamExtractorTest;
-import tevd.nbapp.vide.downl.services.bandcamp.extractors.BandcampExtractorHelper;
-import tevd.nbapp.vide.downl.services.bandcamp.extractors.BandcampStreamExtractor;
-import tevd.nbapp.vide.downl.stream.StreamExtractor;
-import tevd.nbapp.vide.downl.stream.StreamType;
+import tndown.tndir.simplevd.vdwload.services.bandcamp.extractors.BandcampExtractorHelper;
+import tndown.tndir.simplevd.vdwload.services.bandcamp.extractors.BandcampStreamExtractor;
+import tndown.tndir.simplevd.vdwload.stream.StreamExtractor;
+import tndown.tndir.simplevd.vdwload.stream.StreamType;
 
 import java.io.IOException;
 import java.util.Collections;
@@ -21,7 +21,7 @@ import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
-import static tevd.nbapp.vide.downl.ServiceList.Bandcamp;
+import static tndown.tndir.simplevd.vdwload.ServiceList.Bandcamp;
 
 /**
  * Tests for {@link BandcampStreamExtractor}

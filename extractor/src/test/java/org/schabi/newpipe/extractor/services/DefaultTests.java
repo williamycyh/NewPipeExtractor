@@ -1,14 +1,14 @@
 package org.schabi.newpipe.extractor.services;
 
-import tevd.nbapp.vide.downl.InfoItem;
-import tevd.nbapp.vide.downl.ListExtractor;
-import tevd.nbapp.vide.downl.Page;
-import tevd.nbapp.vide.downl.StreamingService;
-import tevd.nbapp.vide.downl.channel.ChannelInfoItem;
-import tevd.nbapp.vide.downl.exceptions.ParsingException;
-import tevd.nbapp.vide.downl.localization.DateWrapper;
-import tevd.nbapp.vide.downl.playlist.PlaylistInfoItem;
-import tevd.nbapp.vide.downl.stream.StreamInfoItem;
+import tndown.tndir.simplevd.vdwload.InfoItem;
+import tndown.tndir.simplevd.vdwload.ListExtractor;
+import tndown.tndir.simplevd.vdwload.Page;
+import tndown.tndir.simplevd.vdwload.StreamingService;
+import tndown.tndir.simplevd.vdwload.channel.ChannelInfoItem;
+import tndown.tndir.simplevd.vdwload.exceptions.ParsingException;
+import tndown.tndir.simplevd.vdwload.localization.DateWrapper;
+import tndown.tndir.simplevd.vdwload.playlist.PlaylistInfoItem;
+import tndown.tndir.simplevd.vdwload.stream.StreamInfoItem;
 
 import java.util.HashSet;
 import java.util.List;
@@ -16,8 +16,8 @@ import java.util.Set;
 
 import static org.junit.jupiter.api.Assertions.*;
 import static org.schabi.newpipe.extractor.ExtractorAsserts.*;
-import static tevd.nbapp.vide.downl.StreamingService.LinkType;
-import static tevd.nbapp.vide.downl.utils.Utils.isNullOrEmpty;
+import static tndown.tndir.simplevd.vdwload.StreamingService.LinkType;
+import static tndown.tndir.simplevd.vdwload.Utils.isNullOrEmpty;
 
 public final class DefaultTests {
     public static void defaultTestListOfItems(StreamingService expectedService, List<? extends InfoItem> itemsList, List<Throwable> errors) throws ParsingException {

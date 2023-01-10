@@ -3,12 +3,12 @@ package org.schabi.newpipe.extractor.services.youtube;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import org.schabi.newpipe.downloader.DownloaderTestImpl;
-import tevd.nbapp.vide.downl.NewPipe;
-import tevd.nbapp.vide.downl.ServiceList;
-import tevd.nbapp.vide.downl.linkhandler.LinkHandlerFactory;
-import tevd.nbapp.vide.downl.services.youtube.extractors.YoutubeSubscriptionExtractor;
-import tevd.nbapp.vide.downl.subscription.SubscriptionExtractor;
-import tevd.nbapp.vide.downl.subscription.SubscriptionItem;
+import tndown.tndir.simplevd.vdwload.NewPipe;
+import tndown.tndir.simplevd.vdwload.ServiceList;
+import tndown.tndir.simplevd.vdwload.linkhandler.LinkHandlerFactory;
+import tndown.tndir.simplevd.vdwload.services.youtube.extractors.YoutubeSubscriptionExtractor;
+import tndown.tndir.simplevd.vdwload.subscription.SubscriptionExtractor;
+import tndown.tndir.simplevd.vdwload.subscription.SubscriptionItem;
 
 import java.io.ByteArrayInputStream;
 import java.io.File;
@@ -18,7 +18,7 @@ import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
 import static org.schabi.newpipe.FileUtils.resolveTestResource;
-import static tevd.nbapp.vide.downl.utils.Utils.UTF_8;
+import static tndown.tndir.simplevd.vdwload.Utils.UTF_8;
 
 /**
  * Test for {@link YoutubeSubscriptionExtractor}

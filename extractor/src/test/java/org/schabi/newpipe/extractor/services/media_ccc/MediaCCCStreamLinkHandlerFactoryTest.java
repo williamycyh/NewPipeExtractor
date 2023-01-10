@@ -3,9 +3,9 @@ package org.schabi.newpipe.extractor.services.media_ccc;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import org.schabi.newpipe.downloader.DownloaderTestImpl;
-import tevd.nbapp.vide.downl.NewPipe;
-import tevd.nbapp.vide.downl.exceptions.ParsingException;
-import tevd.nbapp.vide.downl.services.media_ccc.linkHandler.MediaCCCStreamLinkHandlerFactory;
+import tndown.tndir.simplevd.vdwload.NewPipe;
+import tndown.tndir.simplevd.vdwload.exceptions.ParsingException;
+import tndown.tndir.simplevd.vdwload.services.media_ccc.linkHandler.MediaCCCStreamLinkHandlerFactory;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 

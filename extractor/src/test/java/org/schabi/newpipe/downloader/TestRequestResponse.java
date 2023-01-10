@@ -1,7 +1,7 @@
 package org.schabi.newpipe.downloader;
 
-import tevd.nbapp.vide.downl.downloader.Request;
-import tevd.nbapp.vide.downl.downloader.Response;
+import tndown.tndir.simplevd.vdwload.downloader.Request;
+import tndown.tndir.simplevd.vdwload.downloader.Response;
 
 final class TestRequestResponse {
     private final Request request;

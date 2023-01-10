@@ -3,13 +3,13 @@ package org.schabi.newpipe.extractor.services.media_ccc;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import org.schabi.newpipe.downloader.DownloaderTestImpl;
-import tevd.nbapp.vide.downl.InfoItem;
-import tevd.nbapp.vide.downl.NewPipe;
-import tevd.nbapp.vide.downl.kis.KioskExtractor;
+import tndown.tndir.simplevd.vdwload.InfoItem;
+import tndown.tndir.simplevd.vdwload.NewPipe;
+import tndown.tndir.simplevd.vdwload.kis.KioskExtractor;
 
 import java.util.List;
 
-import static tevd.nbapp.vide.downl.ServiceList.MediaCCC;
+import static tndown.tndir.simplevd.vdwload.ServiceList.MediaCCC;
 
 public class MediaCCCLiveStreamListExtractorTest {
     private static KioskExtractor extractor;

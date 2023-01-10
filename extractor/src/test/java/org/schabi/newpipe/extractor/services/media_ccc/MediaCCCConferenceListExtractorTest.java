@@ -7,15 +7,15 @@ import org.junit.jupiter.params.provider.ValueSource;
 import org.schabi.newpipe.downloader.DownloaderTestImpl;
 import org.schabi.newpipe.extractor.ExtractorAsserts;
 
-import tevd.nbapp.vide.downl.InfoItem;
-import tevd.nbapp.vide.downl.NewPipe;
-import tevd.nbapp.vide.downl.kis.KioskExtractor;
-import tevd.nbapp.vide.downl.services.media_ccc.extractors.MediaCCCConferenceKiosk;
+import tndown.tndir.simplevd.vdwload.InfoItem;
+import tndown.tndir.simplevd.vdwload.NewPipe;
+import tndown.tndir.simplevd.vdwload.kis.KioskExtractor;
+import tndown.tndir.simplevd.vdwload.services.media_ccc.extractors.MediaCCCConferenceKiosk;
 
 import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
-import static tevd.nbapp.vide.downl.ServiceList.MediaCCC;
+import static tndown.tndir.simplevd.vdwload.ServiceList.MediaCCC;
 
 
 /**

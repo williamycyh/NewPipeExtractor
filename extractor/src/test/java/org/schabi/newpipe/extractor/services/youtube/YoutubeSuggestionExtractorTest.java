@@ -21,15 +21,15 @@ package org.schabi.newpipe.extractor.services.youtube;
  */
 
 import static org.junit.jupiter.api.Assertions.assertFalse;
-import static tevd.nbapp.vide.downl.ServiceList.YouTube;
+import static tndown.tndir.simplevd.vdwload.ServiceList.YouTube;
 
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import org.schabi.newpipe.downloader.DownloaderFactory;
-import tevd.nbapp.vide.downl.NewPipe;
-import tevd.nbapp.vide.downl.exceptions.ExtractionException;
-import tevd.nbapp.vide.downl.localization.Localization;
-import tevd.nbapp.vide.downl.suggestion.SuggestionExtractor;
+import tndown.tndir.simplevd.vdwload.NewPipe;
+import tndown.tndir.simplevd.vdwload.exceptions.ExtractionException;
+import tndown.tndir.simplevd.vdwload.localization.Localization;
+import tndown.tndir.simplevd.vdwload.suggestion.SuggestionExtractor;
 
 import java.io.IOException;
 
