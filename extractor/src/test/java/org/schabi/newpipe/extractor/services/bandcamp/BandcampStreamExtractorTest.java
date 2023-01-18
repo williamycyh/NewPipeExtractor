@@ -5,15 +5,15 @@ package org.schabi.newpipe.extractor.services.bandcamp;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import org.schabi.newpipe.downloader.DownloaderTestImpl;
-import tndown.tndir.simplevd.vdwload.NewPipe;
-import tndown.tndir.simplevd.vdwload.StreamingService;
-import tndown.tndir.simplevd.vdwload.exceptions.ExtractionException;
-import tndown.tndir.simplevd.vdwload.exceptions.ParsingException;
+import vthirtylib.second.third.downdir.NewPipe;
+import vthirtylib.second.third.downdir.StreamingService;
+import vthirtylib.second.third.downdir.exceptions.ExtractionException;
+import vthirtylib.second.third.downdir.exceptions.ParsingException;
 import org.schabi.newpipe.extractor.services.DefaultStreamExtractorTest;
-import tndown.tndir.simplevd.vdwload.services.bandcamp.extractors.BandcampExtractorHelper;
-import tndown.tndir.simplevd.vdwload.services.bandcamp.extractors.BandcampStreamExtractor;
-import tndown.tndir.simplevd.vdwload.stream.StreamExtractor;
-import tndown.tndir.simplevd.vdwload.stream.StreamType;
+import vthirtylib.second.third.downdir.services.bandcamp.extractors.BandcampExtractorHelper;
+import vthirtylib.second.third.downdir.services.bandcamp.extractors.BandcampStreamExtractor;
+import vthirtylib.second.third.downdir.stream.StreamExtractor;
+import vthirtylib.second.third.downdir.stream.StreamType;
 
 import java.io.IOException;
 import java.util.Collections;
@@ -21,7 +21,7 @@ import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
-import static tndown.tndir.simplevd.vdwload.ServiceList.Bandcamp;
+import static vthirtylib.second.third.downdir.ServiceList.Bandcamp;
 
 /**
  * Tests for {@link BandcampStreamExtractor}

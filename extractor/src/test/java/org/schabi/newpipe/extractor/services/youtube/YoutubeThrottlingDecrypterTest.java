@@ -4,9 +4,9 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mozilla.javascript.EvaluatorException;
 import org.schabi.newpipe.downloader.DownloaderTestImpl;
-import tndown.tndir.simplevd.vdwload.NewPipe;
-import tndown.tndir.simplevd.vdwload.exceptions.ParsingException;
-import tndown.tndir.simplevd.vdwload.services.youtube.YoutubeThrottlingDecrypter;
+import vthirtylib.second.third.downdir.NewPipe;
+import vthirtylib.second.third.downdir.exceptions.ParsingException;
+import vthirtylib.second.third.downdir.services.youtube.YoutubeThrottlingDecrypter;
 
 import java.io.IOException;
 

@@ -23,18 +23,18 @@ package org.schabi.newpipe.extractor.services.youtube;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import org.schabi.newpipe.downloader.DownloaderTestImpl;
-import tndown.tndir.simplevd.vdwload.NewPipe;
-import tndown.tndir.simplevd.vdwload.StreamingService;
-import tndown.tndir.simplevd.vdwload.kis.KioskList;
-import tndown.tndir.simplevd.vdwload.playlist.PlaylistExtractor;
-import tndown.tndir.simplevd.vdwload.services.youtube.YoutubeService;
-import tndown.tndir.simplevd.vdwload.services.youtube.extractors.YoutubeMixPlaylistExtractor;
-import tndown.tndir.simplevd.vdwload.services.youtube.extractors.YoutubePlaylistExtractor;
+import vthirtylib.second.third.downdir.NewPipe;
+import vthirtylib.second.third.downdir.StreamingService;
+import vthirtylib.second.third.downdir.kis.KioskList;
+import vthirtylib.second.third.downdir.playlist.PlaylistExtractor;
+import vthirtylib.second.third.downdir.services.youtube.YoutubeService;
+import vthirtylib.second.third.downdir.services.youtube.extractors.YoutubeMixPlaylistExtractor;
+import vthirtylib.second.third.downdir.services.youtube.extractors.YoutubePlaylistExtractor;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
-import static tndown.tndir.simplevd.vdwload.ServiceList.YouTube;
+import static vthirtylib.second.third.downdir.ServiceList.YouTube;
 
 /**
  * Test for {@link YoutubeService}

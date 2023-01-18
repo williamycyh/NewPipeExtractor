@@ -3,9 +3,9 @@ package org.schabi.newpipe.extractor.services.youtube;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import org.schabi.newpipe.downloader.DownloaderTestImpl;
-import tndown.tndir.simplevd.vdwload.NewPipe;
-import tndown.tndir.simplevd.vdwload.exceptions.ParsingException;
-import tndown.tndir.simplevd.vdwload.services.youtube.linkHandler.YoutubeCommentsLinkHandlerFactory;
+import vthirtylib.second.third.downdir.NewPipe;
+import vthirtylib.second.third.downdir.exceptions.ParsingException;
+import vthirtylib.second.third.downdir.services.youtube.linkHandler.YoutubeCommentsLinkHandlerFactory;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertFalse;

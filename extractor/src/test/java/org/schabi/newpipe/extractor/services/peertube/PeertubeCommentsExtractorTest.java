@@ -3,14 +3,14 @@ package org.schabi.newpipe.extractor.services.peertube;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import org.schabi.newpipe.downloader.DownloaderTestImpl;
-import tndown.tndir.simplevd.vdwload.ListExtractor.InfoItemsPage;
-import tndown.tndir.simplevd.vdwload.NewPipe;
-import tndown.tndir.simplevd.vdwload.Page;
-import tndown.tndir.simplevd.vdwload.comments.CommentsInfo;
-import tndown.tndir.simplevd.vdwload.comments.CommentsInfoItem;
-import tndown.tndir.simplevd.vdwload.exceptions.ExtractionException;
-import tndown.tndir.simplevd.vdwload.services.peertube.extractors.PeertubeCommentsExtractor;
-import tndown.tndir.simplevd.vdwload.Utils;
+import vthirtylib.second.third.downdir.ListExtractor.InfoItemsPage;
+import vthirtylib.second.third.downdir.NewPipe;
+import vthirtylib.second.third.downdir.Page;
+import vthirtylib.second.third.downdir.comments.CommentsInfo;
+import vthirtylib.second.third.downdir.comments.CommentsInfoItem;
+import vthirtylib.second.third.downdir.exceptions.ExtractionException;
+import vthirtylib.second.third.downdir.services.peertube.extractors.PeertubeCommentsExtractor;
+import vthirtylib.second.third.downdir.Utils;
 
 import java.io.IOException;
 import java.util.List;
@@ -18,7 +18,7 @@ import java.util.List;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
-import static tndown.tndir.simplevd.vdwload.ServiceList.PeerTube;
+import static vthirtylib.second.third.downdir.ServiceList.PeerTube;
 
 public class PeertubeCommentsExtractorTest {
     public static class Default {

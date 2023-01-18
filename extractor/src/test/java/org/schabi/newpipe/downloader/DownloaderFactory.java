@@ -1,6 +1,6 @@
 package org.schabi.newpipe.downloader;
 
-import tndown.tndir.simplevd.vdwload.downloader.Downloader;
+import vthirtylib.second.third.downdir.downloader.Downloader;
 
 import java.io.IOException;
 

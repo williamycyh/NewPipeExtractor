@@ -1,8 +1,8 @@
 package org.schabi.newpipe.extractor.utils;
 
 import org.junit.jupiter.api.Test;
-import tndown.tndir.simplevd.vdwload.exceptions.ParsingException;
-import tndown.tndir.simplevd.vdwload.Utils;
+import vthirtylib.second.third.downdir.exceptions.ParsingException;
+import vthirtylib.second.third.downdir.Utils;
 
 import java.util.Arrays;
 

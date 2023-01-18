@@ -3,12 +3,12 @@ package org.schabi.newpipe.extractor.services.media_ccc;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import org.schabi.newpipe.downloader.DownloaderTestImpl;
-import tndown.tndir.simplevd.vdwload.NewPipe;
-import tndown.tndir.simplevd.vdwload.services.media_ccc.extractors.MediaCCCConferenceExtractor;
+import vthirtylib.second.third.downdir.NewPipe;
+import vthirtylib.second.third.downdir.services.media_ccc.extractors.MediaCCCConferenceExtractor;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
-import static tndown.tndir.simplevd.vdwload.ServiceList.MediaCCC;
+import static vthirtylib.second.third.downdir.ServiceList.MediaCCC;
 
 /**
  * Test {@link MediaCCCConferenceExtractor}

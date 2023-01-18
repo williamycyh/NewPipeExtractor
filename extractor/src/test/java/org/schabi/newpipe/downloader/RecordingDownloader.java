@@ -2,10 +2,10 @@ package org.schabi.newpipe.downloader;
 
 import com.google.gson.GsonBuilder;
 
-import tndown.tndir.simplevd.vdwload.downloader.Downloader;
-import tndown.tndir.simplevd.vdwload.downloader.Request;
-import tndown.tndir.simplevd.vdwload.downloader.Response;
-import tndown.tndir.simplevd.vdwload.exceptions.ReCaptchaException;
+import vthirtylib.second.third.downdir.downloader.Downloader;
+import vthirtylib.second.third.downdir.downloader.Request;
+import vthirtylib.second.third.downdir.downloader.Response;
+import vthirtylib.second.third.downdir.exceptions.ReCaptchaException;
 
 import java.io.File;
 import java.io.FileOutputStream;

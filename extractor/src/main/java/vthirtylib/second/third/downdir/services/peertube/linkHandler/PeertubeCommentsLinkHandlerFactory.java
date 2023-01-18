@@ -1,0 +1,48 @@
+package vthirtylib.second.third.downdir.services.peertube.linkHandler;
+
+import vthirtylib.second.third.downdir.ServiceList;
+import vthirtylib.second.third.downdir.exceptions.FoundAdException;
+import vthirtylib.second.third.downdir.exceptions.ParsingException;
+import vthirtylib.second.third.downdir.linkhandler.ListLinkHandlerFactory;
+
+import java.util.List;
+
+public final class PeertubeCommentsLinkHandlerFactory extends ListLinkHandlerFactory {
+
+    private static final PeertubeCommentsLinkHandlerFactory INSTANCE
+            = new PeertubeCommentsLinkHandlerFactory();
+    private static final String COMMENTS_ENDPOINT = "/api/v1/videos/%s/comment-threads";
+
+    private PeertubeCommentsLinkHandlerFactory() {
+    }
+
+    public static PeertubeCommentsLinkHandlerFactory getInstance() {
+        return INSTANCE;
+    }
+
+    @Override
+    public String getId(final String url) throws ParsingException, IllegalArgumentException {
+        return PeertubeStreamLinkHandlerFactory.getInstance().getId(url); // the same id is needed
+    }
+
+    @Override
+    public boolean onAcceptUrl(final String url) throws FoundAdException {
+        return url.contains("/videos/") || url.contains("/w/");
+    }
+
+    @Override
+    public String getUrl(final String id,
+                         final List<String> contentFilter,
+                         final String sortFilter) throws ParsingException {
+        return getUrl(id, contentFilter, sortFilter, ServiceList.PeerTube.getBaseUrl());
+    }
+
+    @Override
+    public String getUrl(final String id,
+                         final List<String> contentFilter,
+                         final String sortFilter,
+                         final String baseUrl) throws ParsingException {
+        return baseUrl + String.format(COMMENTS_ENDPOINT, id);
+    }
+
+}

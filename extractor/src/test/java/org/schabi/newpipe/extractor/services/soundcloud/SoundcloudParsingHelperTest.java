@@ -5,8 +5,8 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import org.schabi.newpipe.downloader.DownloaderTestImpl;
-import tndown.tndir.simplevd.vdwload.NewPipe;
-import tndown.tndir.simplevd.vdwload.services.soundcloud.SoundcloudParsingHelper;
+import vthirtylib.second.third.downdir.NewPipe;
+import vthirtylib.second.third.downdir.services.soundcloud.SoundcloudParsingHelper;
 
 class SoundcloudParsingHelperTest {
     @BeforeAll

@@ -2,17 +2,17 @@ package org.schabi.newpipe.extractor.services;
 
 import org.junit.jupiter.api.Test;
 import org.schabi.newpipe.extractor.ExtractorAsserts;
-import tndown.tndir.simplevd.vdwload.InfoItemsCollector;
-import tndown.tndir.simplevd.vdwload.MediaFormat;
-import tndown.tndir.simplevd.vdwload.MetaInfo;
-import tndown.tndir.simplevd.vdwload.localization.DateWrapper;
-import tndown.tndir.simplevd.vdwload.stream.AudioStream;
-import tndown.tndir.simplevd.vdwload.stream.Description;
-import tndown.tndir.simplevd.vdwload.stream.Frameset;
-import tndown.tndir.simplevd.vdwload.stream.StreamExtractor;
-import tndown.tndir.simplevd.vdwload.stream.StreamType;
-import tndown.tndir.simplevd.vdwload.stream.SubtitlesStream;
-import tndown.tndir.simplevd.vdwload.stream.VideoStream;
+import vthirtylib.second.third.downdir.InfoItemsCollector;
+import vthirtylib.second.third.downdir.MediaFormat;
+import vthirtylib.second.third.downdir.MetaInfo;
+import vthirtylib.second.third.downdir.localization.DateWrapper;
+import vthirtylib.second.third.downdir.stream.AudioStream;
+import vthirtylib.second.third.downdir.stream.Description;
+import vthirtylib.second.third.downdir.stream.Frameset;
+import vthirtylib.second.third.downdir.stream.StreamExtractor;
+import vthirtylib.second.third.downdir.stream.StreamType;
+import vthirtylib.second.third.downdir.stream.SubtitlesStream;
+import vthirtylib.second.third.downdir.stream.VideoStream;
 
 import javax.annotation.Nullable;
 import java.time.LocalDateTime;
@@ -34,7 +34,7 @@ import static org.schabi.newpipe.extractor.ExtractorAsserts.assertEqualsOrderInd
 import static org.schabi.newpipe.extractor.ExtractorAsserts.assertIsSecureUrl;
 import static org.schabi.newpipe.extractor.ExtractorAsserts.assertIsValidUrl;
 import static org.schabi.newpipe.extractor.services.DefaultTests.defaultTestListOfItems;
-import static tndown.tndir.simplevd.vdwload.stream.StreamExtractor.UNKNOWN_SUBSCRIBER_COUNT;
+import static vthirtylib.second.third.downdir.stream.StreamExtractor.UNKNOWN_SUBSCRIBER_COUNT;
 
 /**
  * Test for {@link StreamExtractor}

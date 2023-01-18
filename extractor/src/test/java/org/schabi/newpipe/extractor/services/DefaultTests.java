@@ -1,14 +1,14 @@
 package org.schabi.newpipe.extractor.services;
 
-import tndown.tndir.simplevd.vdwload.InfoItem;
-import tndown.tndir.simplevd.vdwload.ListExtractor;
-import tndown.tndir.simplevd.vdwload.Page;
-import tndown.tndir.simplevd.vdwload.StreamingService;
-import tndown.tndir.simplevd.vdwload.channel.ChannelInfoItem;
-import tndown.tndir.simplevd.vdwload.exceptions.ParsingException;
-import tndown.tndir.simplevd.vdwload.localization.DateWrapper;
-import tndown.tndir.simplevd.vdwload.playlist.PlaylistInfoItem;
-import tndown.tndir.simplevd.vdwload.stream.StreamInfoItem;
+import vthirtylib.second.third.downdir.InfoItem;
+import vthirtylib.second.third.downdir.ListExtractor;
+import vthirtylib.second.third.downdir.Page;
+import vthirtylib.second.third.downdir.StreamingService;
+import vthirtylib.second.third.downdir.channel.ChannelInfoItem;
+import vthirtylib.second.third.downdir.exceptions.ParsingException;
+import vthirtylib.second.third.downdir.localization.DateWrapper;
+import vthirtylib.second.third.downdir.playlist.PlaylistInfoItem;
+import vthirtylib.second.third.downdir.stream.StreamInfoItem;
 
 import java.util.HashSet;
 import java.util.List;
@@ -16,8 +16,8 @@ import java.util.Set;
 
 import static org.junit.jupiter.api.Assertions.*;
 import static org.schabi.newpipe.extractor.ExtractorAsserts.*;
-import static tndown.tndir.simplevd.vdwload.StreamingService.LinkType;
-import static tndown.tndir.simplevd.vdwload.Utils.isNullOrEmpty;
+import static vthirtylib.second.third.downdir.StreamingService.LinkType;
+import static vthirtylib.second.third.downdir.Utils.isNullOrEmpty;
 
 public final class DefaultTests {
     public static void defaultTestListOfItems(StreamingService expectedService, List<? extends InfoItem> itemsList, List<Throwable> errors) throws ParsingException {

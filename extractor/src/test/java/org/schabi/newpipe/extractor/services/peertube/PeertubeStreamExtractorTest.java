@@ -4,15 +4,15 @@ import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import org.schabi.newpipe.downloader.DownloaderTestImpl;
-import tndown.tndir.simplevd.vdwload.NewPipe;
-import tndown.tndir.simplevd.vdwload.StreamingService;
-import tndown.tndir.simplevd.vdwload.exceptions.ExtractionException;
-import tndown.tndir.simplevd.vdwload.exceptions.ParsingException;
+import vthirtylib.second.third.downdir.NewPipe;
+import vthirtylib.second.third.downdir.StreamingService;
+import vthirtylib.second.third.downdir.exceptions.ExtractionException;
+import vthirtylib.second.third.downdir.exceptions.ParsingException;
 import org.schabi.newpipe.extractor.services.DefaultStreamExtractorTest;
 
-import tndown.tndir.simplevd.vdwload.services.peertube.PeertubeInstance;
-import tndown.tndir.simplevd.vdwload.stream.StreamExtractor;
-import tndown.tndir.simplevd.vdwload.stream.StreamType;
+import vthirtylib.second.third.downdir.services.peertube.PeertubeInstance;
+import vthirtylib.second.third.downdir.stream.StreamExtractor;
+import vthirtylib.second.third.downdir.stream.StreamType;
 
 import java.io.IOException;
 import java.util.Arrays;
@@ -22,7 +22,7 @@ import java.util.Locale;
 import javax.annotation.Nullable;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static tndown.tndir.simplevd.vdwload.ServiceList.PeerTube;
+import static vthirtylib.second.third.downdir.ServiceList.PeerTube;
 
 public abstract class PeertubeStreamExtractorTest extends DefaultStreamExtractorTest {
     private static final String BASE_URL = "/videos/watch/";

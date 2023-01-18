@@ -4,8 +4,8 @@ package org.schabi.newpipe.extractor.services.bandcamp;
 
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
-import tndown.tndir.simplevd.vdwload.exceptions.ParsingException;
-import tndown.tndir.simplevd.vdwload.services.bandcamp.linkHandler.BandcampFeaturedLinkHandlerFactory;
+import vthirtylib.second.third.downdir.exceptions.ParsingException;
+import vthirtylib.second.third.downdir.services.bandcamp.linkHandler.BandcampFeaturedLinkHandlerFactory;
 
 import static org.junit.jupiter.api.Assertions.*;
 

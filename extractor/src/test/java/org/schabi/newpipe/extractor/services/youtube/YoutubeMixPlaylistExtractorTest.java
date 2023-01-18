@@ -5,7 +5,7 @@ import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 import static org.schabi.newpipe.extractor.ExtractorAsserts.assertIsSecureUrl;
-import static tndown.tndir.simplevd.vdwload.ServiceList.YouTube;
+import static vthirtylib.second.third.downdir.ServiceList.YouTube;
 
 import com.grack.nanojson.JsonWriter;
 
@@ -13,15 +13,15 @@ import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import org.schabi.newpipe.downloader.DownloaderFactory;
 import org.schabi.newpipe.extractor.ExtractorAsserts;
-import tndown.tndir.simplevd.vdwload.ListExtractor;
-import tndown.tndir.simplevd.vdwload.ListExtractor.InfoItemsPage;
-import tndown.tndir.simplevd.vdwload.NewPipe;
-import tndown.tndir.simplevd.vdwload.Page;
-import tndown.tndir.simplevd.vdwload.exceptions.ExtractionException;
-import tndown.tndir.simplevd.vdwload.exceptions.ParsingException;
-import tndown.tndir.simplevd.vdwload.playlist.PlaylistInfo;
-import tndown.tndir.simplevd.vdwload.services.youtube.extractors.YoutubeMixPlaylistExtractor;
-import tndown.tndir.simplevd.vdwload.stream.StreamInfoItem;
+import vthirtylib.second.third.downdir.ListExtractor;
+import vthirtylib.second.third.downdir.ListExtractor.InfoItemsPage;
+import vthirtylib.second.third.downdir.NewPipe;
+import vthirtylib.second.third.downdir.Page;
+import vthirtylib.second.third.downdir.exceptions.ExtractionException;
+import vthirtylib.second.third.downdir.exceptions.ParsingException;
+import vthirtylib.second.third.downdir.playlist.PlaylistInfo;
+import vthirtylib.second.third.downdir.services.youtube.extractors.YoutubeMixPlaylistExtractor;
+import vthirtylib.second.third.downdir.stream.StreamInfoItem;
 
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;

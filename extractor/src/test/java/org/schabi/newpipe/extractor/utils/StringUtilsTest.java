@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static tndown.tndir.simplevd.vdwload.StringUtils.matchToClosingParenthesis;
+import static vthirtylib.second.third.downdir.StringUtils.matchToClosingParenthesis;
 
 public class StringUtilsTest {
 
